@@ -22,6 +22,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import app.mynta.console.android.R;
 
+import app.mynta.console.android.activities.GiftActivity;
 import app.mynta.console.android.sheets.ChooseNotificationProviderBottomSheetModal;
 import app.mynta.console.android.activities.EditProjectActivity;
 import app.mynta.console.android.activities.MainActivity;
@@ -175,18 +176,13 @@ public class HomeFragment extends Fragment {
                         view.findViewById(R.id.view_all_members).setOnClickListener(v -> startActivity(new Intent(requireContext(), MembersActivity.class)));
                         /* members container end **/
 
-
-
-
-
-
                         // customization card
-                        /*if (root.getInt("review") == 0) {
+                        if (root.getInt("review") == 0) {
                             view.findViewById(R.id.customization_card).setVisibility(View.VISIBLE);
                             view.findViewById(R.id.customization_card).setOnClickListener(v -> startActivity(new Intent(requireContext(), GiftActivity.class)));
                         } else {
                             view.findViewById(R.id.customization_card).setVisibility(View.GONE);
-                        }*/
+                        }
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
