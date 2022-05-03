@@ -101,13 +101,12 @@ public class SplashActivity extends AppCompatActivity {
 
         Uri data = intent.getData();
         if (data != null) {
-            if (data.toString().equals("https://console.themintapp.com/tickets")) {
+            if (data.toString().equals("https://mynta.app/console/tickets")) {
                 startActivity(new Intent(SplashActivity.this, MyTicketsActivity.class));
                 finish();
             }
         } else {
-            startActivity(new Intent(SplashActivity.this, GetStartedActivity.class));
-            finish();
+            requestLaunchMainInstance();
         }
     }
 

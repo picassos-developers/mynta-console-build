@@ -124,7 +124,7 @@ public class ViewArticleActivity extends AppCompatActivity {
         webView.setHorizontalScrollBarEnabled(false);
         webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         if (consolePreferences.loadDarkMode() == 2) {
-            webView.setBackgroundColor(Color.parseColor("#121212"));
+            webView.setBackgroundColor(Color.parseColor("#101010"));
         } else {
             webView.setBackgroundColor(Color.parseColor("#F8F8F8"));
         }
@@ -240,6 +240,7 @@ public class ViewArticleActivity extends AppCompatActivity {
     private void requestInitWebView(String content) {
         String html_data =
                 "<style>" +
+                        "body {margin: 0px !important; padding: 0px !important;}" +
                         "@font-face {font-family: 'Poppins'; src: url(\"file:///android_res/font/poppins_regular.ttf\");}" +
                         "@font-face {font-family: 'Poppins Bold'; src: url(\"file:///android_res/font/poppins_bold.ttf\");}" +
                         "h4 {font-size: 18px !important; font-family: 'Poppins Bold' !important; line-height: 1.3 !important}" +
