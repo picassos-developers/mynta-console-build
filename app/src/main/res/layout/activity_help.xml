@@ -137,26 +137,6 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginBottom="20dp">
-
-                        <androidx.recyclerview.widget.RecyclerView
-                            android:id="@id/recycler_sections"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center" />
-
-                        <androidx.recyclerview.widget.RecyclerView
-                            android:id="@id/recycler_articles"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center" />
-
-                    </RelativeLayout>
-
                     <include layout="@layout/include_internet_connection" />
 
                     <androidx.cardview.widget.CardView
@@ -177,6 +157,26 @@
                             android:textColor="?color_dark" />
 
                     </androidx.cardview.widget.CardView>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="20dp">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@id/recycler_sections"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@id/recycler_articles"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+
+                    </RelativeLayout>
 
                 </LinearLayout>
 
