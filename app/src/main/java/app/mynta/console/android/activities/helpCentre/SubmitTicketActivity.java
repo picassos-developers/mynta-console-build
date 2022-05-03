@@ -107,11 +107,9 @@ public class SubmitTicketActivity extends AppCompatActivity {
             protected Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<>();
                 params.put("token", consolePreferences.loadToken());
-                params.put("username", consolePreferences.loadUsername());
-                params.put("email", consolePreferences.loadEmail());
-                params.put("request_subject", ticketSubject.getText().toString());
-                params.put("request_description", ticketDescription.getText().toString());
-                params.put("request_type", ticketType.getText().toString());
+                params.put("subject", ticketSubject.getText().toString());
+                params.put("message", ticketDescription.getText().toString());
+                params.put("type", ticketType.getText().toString());
                 return params;
             }
         };
