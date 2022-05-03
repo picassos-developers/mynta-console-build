@@ -162,7 +162,7 @@ public class HomeFragment extends Fragment {
                         JSONArray members = root.getJSONArray("members");
                         for (int i = 0; i < members.length(); i++) {
                             membersList.add(new Members(
-                                    members.getJSONObject(i).getInt("user_id"), members.getJSONObject(i).getString("username"), members.getJSONObject(i).getString("email"), members.getJSONObject(i).getString("verified")));
+                                    members.getJSONObject(i).getInt("member_id"), members.getJSONObject(i).getString("username"), members.getJSONObject(i).getString("email"), members.getJSONObject(i).getString("verified")));
                             membersAdapter.notifyDataSetChanged();
                         }
                         // check if members are empty
