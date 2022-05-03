@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="?color_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/tell_us_about_your_business"
+            android:textColor="?color_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:textAlignment="center"
+            android:text="@string/give_us_information_about_your_business_or_team"
+            android:textColor="?color_dark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@id/business"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_rectangle_background"
+            android:hint="@string/business_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="?color_dark"
+            android:textColorHint="?color_dark"
+            android:textSize="@dimen/input_text_size"
+            tools:ignore="Autofill,RtlSymmetry,SmallSp,TextFields" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@id/location_chooser"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="?color_light_separate"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
+            <TextView
+                android:id="@id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="@dimen/input_text_size"
+                android:text="@string/where_is_your_business_located"
+                android:textColor="?color_dark" />
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@id/email_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_rectangle_background"
+            android:hint="@string/business_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:gravity="center_vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="?color_dark"
+            android:textColorHint="?color_dark"
+            android:textSize="@dimen/input_text_size"
+            tools:ignore="Autofill,RtlSymmetry,SmallSp,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_users_will_use_this_email_to_send_you_feedback"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:textSize="12sp"
+            android:layout_gravity="start"
+            android:textColor="?color_dark"
+            android:layout_marginEnd="20dp" />
+
+        <Button
+            android:id="@id/next"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_primary_rounded"
+            android:text="@string/next_step"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:textColor="?color_light_separate"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

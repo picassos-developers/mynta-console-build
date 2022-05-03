@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/toolbar_background"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/provider_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle_secondary"
+            android:paddingStart="0dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/icon_webview"
+            app:tint="?color_dark"
+            tools:ignore="ContentDescription" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@id/provider_action"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="25dp"
+            android:thumb="@drawable/switch_thumb_big"
+            app:track="@drawable/switch_track_big" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/provider_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/providers"
+        android:textColor="?color_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@id/provider_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="large_loading_spinner">80dp</dimen>
+    <dimen name="margin_16x">14dp</dimen>
+    <dimen name="padding_12x">10dp</dimen>
+    <dimen name="padding_16x">14dp</dimen>
+    <dimen name="padding_20x">18dp</dimen>
+    <dimen name="padding_24x">20dp</dimen>
+    <dimen name="text_size_body1">13sp</dimen>
+    <dimen name="text_size_display">26sp</dimen>
+</resources>
