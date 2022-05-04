@@ -55,7 +55,7 @@ public class AboutAppActivity extends AppCompatActivity {
         findViewById(R.id.go_back).setOnClickListener(v -> finish());
 
         /// learnmore
-        findViewById(R.id.learnmore).setOnClickListener(v -> showLearnMore("Add Your Application Info", "test", ""));
+        findViewById(R.id.learnmore).setOnClickListener(v -> showLearnMore(getString(R.string.about_application), getString(R.string.about_application_description), ""));
 
         // about app
         aboutContent = findViewById(R.id.about_content);

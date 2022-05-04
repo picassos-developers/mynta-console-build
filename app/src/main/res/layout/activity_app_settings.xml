@@ -86,7 +86,7 @@
                             <ImageView
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:src="@drawable/icon_full_screen"
+                                android:src="@drawable/icon_darkmode"
                                 android:paddingStart="0dp"
                                 android:paddingEnd="0dp"
                                 android:paddingTop="10dp"
@@ -96,7 +96,7 @@
                                 tools:ignore="ContentDescription" />
 
                             <androidx.appcompat.widget.SwitchCompat
-                                android:id="@id/webview_provider"
+                                android:id="@id/dark_mode"
                                 android:layout_width="wrap_content"
                                 android:layout_height="40dp"
                                 android:layout_marginStart="25dp"
@@ -108,7 +108,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/fullscreen_mode"
+                            android:text="@string/dark_mode"
                             android:layout_marginTop="20dp"
                             android:textColor="?color_dark"
                             android:fontFamily="@font/poppins_regular"
@@ -133,7 +133,7 @@
                             <ImageView
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:src="@drawable/icon_webview"
+                                android:src="@drawable/icon_full_screen"
                                 android:paddingStart="0dp"
                                 android:paddingEnd="0dp"
                                 android:paddingTop="10dp"
@@ -143,7 +143,7 @@
                                 tools:ignore="ContentDescription" />
 
                             <androidx.appcompat.widget.SwitchCompat
-                                android:id="@id/webview_provider"
+                                android:id="@id/fullscreen"
                                 android:layout_width="wrap_content"
                                 android:layout_height="40dp"
                                 android:layout_marginStart="25dp"
@@ -155,7 +155,199 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/webview"
+                            android:text="@string/fullscreen_mode"
+                            android:layout_marginTop="20dp"
+                            android:textColor="?color_dark"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="7dp"
+                        android:layout_columnWeight=".5"
+                        android:background="@drawable/toolbar_background"
+                        android:padding="15dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/icon_sleep"
+                                android:paddingStart="0dp"
+                                android:paddingEnd="0dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:background="@drawable/rectangle_secondary"
+                                app:tint="?color_dark"
+                                tools:ignore="ContentDescription" />
+
+                            <androidx.appcompat.widget.SwitchCompat
+                                android:id="@id/screen_sleep"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="25dp"
+                                android:thumb="@drawable/switch_thumb_big"
+                                app:track="@drawable/switch_track_big" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/screen_sleep"
+                            android:layout_marginTop="20dp"
+                            android:textColor="?color_dark"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_columnWeight=".5"
+                        android:background="@drawable/toolbar_background"
+                        android:padding="15dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/icon_full_screen"
+                                android:paddingStart="0dp"
+                                android:paddingEnd="0dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:background="@drawable/rectangle_secondary"
+                                app:tint="?color_dark"
+                                tools:ignore="ContentDescription" />
+
+                            <androidx.appcompat.widget.SwitchCompat
+                                android:id="@id/force_fullscreen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="25dp"
+                                android:thumb="@drawable/switch_thumb_big"
+                                app:track="@drawable/switch_track_big" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/force_fullscreen"
+                            android:layout_marginTop="20dp"
+                            android:textColor="?color_dark"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="7dp"
+                        android:layout_columnWeight=".5"
+                        android:background="@drawable/toolbar_background"
+                        android:padding="15dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/icon_full_screen"
+                                android:paddingStart="0dp"
+                                android:paddingEnd="0dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:background="@drawable/rectangle_secondary"
+                                app:tint="?color_dark"
+                                tools:ignore="ContentDescription" />
+
+                            <androidx.appcompat.widget.SwitchCompat
+                                android:id="@id/force_fullscreen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="25dp"
+                                android:thumb="@drawable/switch_thumb_big"
+                                app:track="@drawable/switch_track_big" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/force_fullscreen"
+                            android:layout_marginTop="20dp"
+                            android:textColor="?color_dark"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_columnWeight=".5"
+                        android:background="@drawable/toolbar_background"
+                        android:padding="15dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/icon_full_screen"
+                                android:paddingStart="0dp"
+                                android:paddingEnd="0dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:background="@drawable/rectangle_secondary"
+                                app:tint="?color_dark"
+                                tools:ignore="ContentDescription" />
+
+                            <androidx.appcompat.widget.SwitchCompat
+                                android:id="@id/force_fullscreen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="25dp"
+                                android:thumb="@drawable/switch_thumb_big"
+                                app:track="@drawable/switch_track_big" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/force_fullscreen"
                             android:layout_marginTop="20dp"
                             android:textColor="?color_dark"
                             android:fontFamily="@font/poppins_regular"

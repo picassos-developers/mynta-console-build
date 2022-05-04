@@ -525,4 +525,5 @@
     <string name="firebase_server_key_empty">Server key can\'t be empty.</string>
     <string name="search_help">Search help</string>
     <string name="speak_help">Speak to search help…</string>
+    <string name="about_application_description">Your serious app visitors will likely hop over to your About App page. This page is your opportunity to introduce yourself and establish credibility and build trust.</string>
 </resources>
