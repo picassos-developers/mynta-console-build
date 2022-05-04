@@ -18,15 +18,18 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
 import app.mynta.console.android.R;
 
 public class To extends Dialog {
+    private String message;
 
-    public To(@NonNull Context context) {
+    public To(@NonNull Context context, String message) {
         super(context);
+        this.message = message;
     }
 
     @Override
@@ -39,6 +42,10 @@ public class To extends Dialog {
         setCancelable(false);
         setCanceledOnTouchOutside(false);
 
+        // toast text
+        TextView text = findViewById(R.id.toast_text);
+        text.setText(message);
+
         if (getWindow() != null) {
             getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
             getWindow().setLayout(WindowManager.LayoutParams.WRAP_CONTENT, WindowManager.LayoutParams.WRAP_CONTENT);
@@ -48,5 +55,9 @@ public class To extends Dialog {
             WLP.dimAmount = 0.0f;
             window.setAttributes(WLP);
         }
+    }
+
+    public void start() {
+
     }
 }

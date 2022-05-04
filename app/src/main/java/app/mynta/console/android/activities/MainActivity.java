@@ -87,8 +87,9 @@ public class MainActivity extends AppCompatActivity implements ProjectOptionsBot
 
         setContentView(R.layout.activity_main);
 
-        To to = new To(this);
+        To to = new To(this, "test");
         to.show();
+        to.start();
 
         // get instance
         app = App.getInstance();

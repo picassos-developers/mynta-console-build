@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_alignParentTop="true"
-    android:alpha="0.86"
+    android:alpha="0.89"
     android:layout_gravity="center"
     android:background="@drawable/toast_dark"
     android:paddingStart="36dp"
