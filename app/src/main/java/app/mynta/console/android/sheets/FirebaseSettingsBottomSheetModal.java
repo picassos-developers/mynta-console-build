@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -96,7 +97,7 @@ public class FirebaseSettingsBottomSheetModal extends BottomSheetDialogFragment 
                     view.findViewById(R.id.save_settings).setEnabled(true);
                 }, error -> {
             view.findViewById(R.id.save_settings).setEnabled(true);
-            Toasto.show_toast(requireActivity().getApplicationContext(), getString(R.string.unknown_issue), 1, 1);
+            Toasto.show_toast(requireContext(), getString(R.string.settings_saved), 0, 0);
         }) {
             @Override
             protected Map<String, String> getParams() {

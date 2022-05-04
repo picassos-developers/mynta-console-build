@@ -37,7 +37,6 @@ import app.mynta.console.android.libraries.showcaseview.config.Gravity;
 import app.mynta.console.android.sharedPreferences.ConsolePreferences;
 import app.mynta.console.android.sheets.ProjectOptionsBottomSheetModal;
 import app.mynta.console.android.utils.Helper;
-import app.mynta.console.android.utils.To;
 import app.mynta.console.android.utils.Toasto;
 
 import app.mynta.console.android.R;
@@ -86,10 +85,6 @@ public class MainActivity extends AppCompatActivity implements ProjectOptionsBot
         consolePreferences = new ConsolePreferences(this);
 
         setContentView(R.layout.activity_main);
-
-        To to = new To(this, "test");
-        to.show();
-        to.start();
 
         // get instance
         app = App.getInstance();
