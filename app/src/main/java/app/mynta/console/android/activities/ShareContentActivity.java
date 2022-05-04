@@ -18,6 +18,7 @@ import app.mynta.console.android.R;
 
 import app.mynta.console.android.sharedPreferences.ConsolePreferences;
 import app.mynta.console.android.constants.API;
+import app.mynta.console.android.sheets.LearnMoreBottomSheetModal;
 import app.mynta.console.android.utils.Helper;
 import app.mynta.console.android.utils.RequestDialog;
 import app.mynta.console.android.utils.Toasto;
@@ -53,6 +54,9 @@ public class ShareContentActivity extends AppCompatActivity {
 
         // close activity
         findViewById(R.id.go_back).setOnClickListener(v -> finish());
+
+        // learnmore
+        findViewById(R.id.learnmore).setOnClickListener(v -> showLearnMore("add your share content", "test test test", ""));
 
         // share content
         shareContent = findViewById(R.id.share_content);
@@ -158,4 +162,20 @@ public class ShareContentActivity extends AppCompatActivity {
 
         }
     };
+
+    /**
+     * request show learn more dialog
+     * @param title for title
+     * @param description for description
+     * @param url for url
+     */
+    public void showLearnMore(String title, String description, String url) {
+        Bundle learnmore = new Bundle();
+        learnmore.putString("title", title);
+        learnmore.putString("description", description);
+        learnmore.putString("url", url);
+        LearnMoreBottomSheetModal learnMoreBottomSheetModal = new LearnMoreBottomSheetModal();
+        learnMoreBottomSheetModal.setArguments(learnmore);
+        learnMoreBottomSheetModal.show(getSupportFragmentManager(), "TAG");
+    }
 }

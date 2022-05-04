@@ -166,7 +166,7 @@
     <item name="ticket_type" type="id" />
     <item name="redeem" type="id" />
     <item name="ticket_description" type="id" />
-    <item name="policies_learnmore" type="id" />
+    <item name="learnmore" type="id" />
     <item name="agreement_notice" type="id" />
     <item name="paypal_checkout_container" type="id" />
     <item name="open_ticket" type="id" />

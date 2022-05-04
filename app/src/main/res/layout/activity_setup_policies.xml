@@ -59,7 +59,7 @@
             </LinearLayout>
 
             <ImageView
-                android:id="@id/policies_learnmore"
+                android:id="@id/learnmore"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_alignParentEnd="true"

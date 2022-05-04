@@ -61,7 +61,7 @@ public class SetupPoliciesActivity extends AppCompatActivity {
         findViewById(R.id.go_back).setOnClickListener(v -> finish());
 
         // policies learn more
-        findViewById(R.id.policies_learnmore).setOnClickListener(v -> showLearnMore(getString(R.string.policies_learnmore_title), getString(R.string.policies_learnmore_description), ""));
+        findViewById(R.id.learnmore).setOnClickListener(v -> showLearnMore(getString(R.string.policies_learnmore_title), getString(R.string.policies_learnmore_description), ""));
 
         // fields
         EditText applicationName = findViewById(R.id.application_name);
