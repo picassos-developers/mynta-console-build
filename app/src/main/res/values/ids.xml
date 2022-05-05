@@ -207,7 +207,7 @@
     <item name="notifications" type="id" />
     <item name="logout" type="id" />
     <item name="country_title" type="id" />
-    <item name="downloads" type="id" />
+    <item name="build" type="id" />
     <item name="privacy_policy" type="id" />
     <item name="terms_of_use" type="id" />
     <item name="power_store" type="id" />

@@ -78,7 +78,6 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name=".activities.DownloadsActivity" />
         <activity
             android:name=".activities.about.AboutConsoleActivity"
             android:exported="true" />

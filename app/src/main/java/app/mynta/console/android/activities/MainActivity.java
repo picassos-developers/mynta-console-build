@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements ProjectOptionsBot
         fragmentManager.beginTransaction().add(R.id.fragment_container, homeFragment, "1").commit();
 
         // bottom navigation on item selected listener
-        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
+        bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.home:
                     fragmentManager.beginTransaction().hide(active).show(homeFragment).commit();
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements ProjectOptionsBot
         });
 
         // bottom navigation on item reselected
-        bottomNavigationView.setOnNavigationItemReselectedListener(MenuItem::getItemId);
+        bottomNavigationView.setOnItemReselectedListener(MenuItem::getItemId);
 
         // nested scrollview
         CoordinatorLayout.LayoutParams layoutParams = (CoordinatorLayout.LayoutParams) bottomNavigationView.getLayoutParams();
@@ -191,8 +191,10 @@ public class MainActivity extends AppCompatActivity implements ProjectOptionsBot
         });
         // notifications
         navigationView.findViewById(R.id.notifications).setOnClickListener(v -> startActivity(new Intent(this, NotificationsActivity.class)));
-        // download data
-        navigationView.findViewById(R.id.downloads).setOnClickListener(v -> startActivity(new Intent(this, DownloadsActivity.class)));
+        // build app
+        navigationView.findViewById(R.id.build).setOnClickListener(v -> {
+
+        });
         // check status
         navigationView.findViewById(R.id.check_status).setOnClickListener(v -> startActivity(new Intent(this, CheckStatusActivity.class)));
         // navigation tabs
