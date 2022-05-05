@@ -375,7 +375,6 @@
     <string name="generating_your_policies">Generating your Policies</string>
     <string name="get_your_generated_policies">Get Your Generated Policies</string>
     <string name="applying_your_privacy_policy_terms_of_use">Applying your Privacy Policy &amp; Terms of Use…</string>
-
     <string name="all_set">All Set!</string>
     <string name="we_have_successfully_applied_your_privacy_policy_and_terms_of_use_you_can_update_them_anytime_or_generate_new_policies">We have successfully applied your Privacy Policy and Terms of Use.</string>
     <string name="download_your_privacy_policy">Download Your Privacy Policy</string>
@@ -525,5 +524,6 @@
     <string name="firebase_server_key_empty">Server key can\'t be empty.</string>
     <string name="search_help">Search help</string>
     <string name="speak_help">Speak to search help…</string>
-    <string name="about_application_description">Your serious app visitors will likely hop over to your About App page. This page is your opportunity to introduce yourself and establish credibility and build trust.</string>
+    <string name="about_application_description">Interested visitors will likely hop over to your About Us page within a click or two. This page is your opportunity to introduce yourself and your business to your app visitors and establish credibility and build trust.</string>
+    <string name="share_content_description"></string>
 </resources>

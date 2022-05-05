@@ -56,7 +56,7 @@ public class ShareContentActivity extends AppCompatActivity {
         findViewById(R.id.go_back).setOnClickListener(v -> finish());
 
         // learnmore
-        findViewById(R.id.learnmore).setOnClickListener(v -> showLearnMore("add your share content", "test test test", ""));
+        findViewById(R.id.learnmore).setOnClickListener(v -> showLearnMore(getString(R.string.share_content), getString(R.string.share_content_description), ""));
 
         // share content
         shareContent = findViewById(R.id.share_content);

@@ -45,6 +45,7 @@ public class RequestDialog extends Dialog {
             Window window = getWindow();
             WindowManager.LayoutParams WLP = window.getAttributes();
             WLP.gravity = Gravity.CENTER;
+            WLP.dimAmount = 0.0f;
             window.setAttributes(WLP);
         }
     }
