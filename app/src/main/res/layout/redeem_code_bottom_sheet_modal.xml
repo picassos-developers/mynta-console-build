@@ -59,7 +59,6 @@
             android:layout_marginEnd="25dp"
             android:layout_marginBottom="10dp"
             android:textColorLink="?color_dark"
-            android:fontFamily="@font/poppins_regular"
             android:text="@string/gift_card_notice_agreement"
             android:textColor="?color_dark"
             android:textSize="11sp" />
@@ -92,7 +91,6 @@
                 android:visibility="gone"
                 android:layout_marginStart="25dp"
                 android:layout_marginEnd="25dp"
-                android:fontFamily="@font/poppins_regular"
                 android:text="@string/gift_card_successfully_redeemed"
                 android:textColor="#05BE70"
                 android:textSize="11sp"

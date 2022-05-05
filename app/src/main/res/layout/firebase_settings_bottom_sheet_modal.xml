@@ -50,6 +50,7 @@
                 android:background="@drawable/button_primary_sheet"
                 android:text="@string/save_settings"
                 android:textAllCaps="false"
+                android:enabled="false"
                 android:textSize="@dimen/input_text_size"
                 android:textColor="@color/color_white" />
 

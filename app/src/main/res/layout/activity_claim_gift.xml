@@ -160,10 +160,10 @@
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/input_background_primary"
+                android:background="@drawable/button_primary"
                 android:text="@string/submit_request"
                 android:textAllCaps="false"
-                android:textColor="?color_light_separate"
+                android:textColor="@color/color_white"
                 android:textSize="@dimen/input_text_size" />
 
             <TextView
@@ -174,7 +174,6 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="20dp"
                 android:textColorLink="?color_dark"
-                android:fontFamily="@font/poppins_regular"
                 android:text="@string/please_read_our_terms_of_use_for_details_about_our_customization_card_system"
                 android:textColor="?color_dark"
                 android:textSize="11sp" />
@@ -187,7 +186,6 @@
                 android:visibility="gone"
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="20dp"
-                android:fontFamily="@font/poppins_regular"
                 android:text="@string/request_submitted_successfully_we_will_verify_your_data_and_send_you_the_customized_source_code_to"
                 android:textColor="#05BE70"
                 android:textSize="11sp"

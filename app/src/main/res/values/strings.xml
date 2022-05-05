@@ -312,7 +312,7 @@
     <string name="data_updated">Data updates successfully.</string>
     <string name="claim_gift">Claim Gift</string>
     <string name="how_to_claim_your_customization_gift">How to claim your customization gift?</string>
-    <string name="customization_card_usually_cost_40_but_now_you_can_get_one_for_free_by_following_these_steps"> </string>
+    <string name="customization_card_usually_cost_40_but_now_you_can_get_one_for_free_by_following_these_steps">Customization card usually cost 40$, but now you can get one for free by following this steps:</string>
     <string name="claim_gift_steps">1. Write a review on your experience with Mint on Codecanyon. <a href="https://console.themintapp.com/hc/en-us/articles?ai=19876932&amp;s=63633709">How to write a review?</a>\n\n2. Upload a screenshot of the review and some essential files for the customization you need (i.e. splash screen logo) to Google Drive and copy the share link for said files.\n\n3. Fill the required fields (including the Google Drive link) and we\'ll do the rest for you! In no time, you\'ll have your customized app ready to go.</string>
     <string name="request_customization">Request Customization</string>
     <string name="drive_link">Google Drive Link</string>

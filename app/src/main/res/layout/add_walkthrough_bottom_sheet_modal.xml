@@ -78,7 +78,7 @@
                 android:layout_height="38dp"
                 android:layout_marginTop="15dp"
                 android:enabled="false"
-                android:background="@drawable/button_primary"
+                android:background="@drawable/button_primary_sheet"
                 android:text="@string/add_walkthrough"
                 android:textAllCaps="false"
                 android:textSize="@dimen/input_text_size"
