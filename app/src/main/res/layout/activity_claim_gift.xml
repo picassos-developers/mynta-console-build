@@ -176,7 +176,7 @@
                 android:textColorLink="?color_dark"
                 android:text="@string/please_read_our_terms_of_use_for_details_about_our_customization_card_system"
                 android:textColor="?color_dark"
-                android:textSize="11sp" />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@id/response"
