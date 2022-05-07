@@ -1,6 +1,7 @@
 package app.mynta.console.android.sheets;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -9,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -48,7 +48,7 @@ public class FirebaseSettingsBottomSheetModal extends BottomSheetDialogFragment 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.firebase_settings_bottom_sheet_modal, container, false);
 
-        consolePreferences = new ConsolePreferences(requireActivity().getApplicationContext());
+        consolePreferences = new ConsolePreferences(requireContext());
 
         // initialize request dialog
         requestDialog = new RequestDialog(requireContext());
@@ -62,7 +62,6 @@ public class FirebaseSettingsBottomSheetModal extends BottomSheetDialogFragment 
             // validate firebase settings
             if (!TextUtils.isEmpty(serverKey.getText().toString())) {
                 requestSaveSettings(serverKey.getText().toString());
-                dismiss();
             } else {
                 Toasto.show_toast(requireContext(), getString(R.string.firebase_server_key_empty), 1, 2);
             }
@@ -107,7 +106,7 @@ public class FirebaseSettingsBottomSheetModal extends BottomSheetDialogFragment 
             }
         };
 
-        Volley.newRequestQueue(requireActivity().getApplicationContext()).add(request);
+        Volley.newRequestQueue(requireContext()).add(request);
     }
 
     /**
@@ -123,7 +122,7 @@ public class FirebaseSettingsBottomSheetModal extends BottomSheetDialogFragment 
             StringRequest request = new StringRequest(Request.Method.POST, API.API_URL + API.REQUEST_SAVE_FIREBASE_SETTINGS,
                     response -> {
                         if (response.equals("200")) {
-                            Toasto.show_toast(requireContext(), getString(R.string.settings_saved), 0, 0);
+                            Toasto.show_toast(requireContext(), getString(R.string.settings_saved), 1, 0);
                             dismiss();
                         } else {
                             Toasto.show_toast(requireContext(), getString(R.string.unknown_issue), 1, 1);
@@ -142,7 +141,7 @@ public class FirebaseSettingsBottomSheetModal extends BottomSheetDialogFragment 
                 }
             };
 
-            Volley.newRequestQueue(requireActivity().getApplicationContext()).add(request);
+            Volley.newRequestQueue(requireContext()).add(request);
         }
     }
 

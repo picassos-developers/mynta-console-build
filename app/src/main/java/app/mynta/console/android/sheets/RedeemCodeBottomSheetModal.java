@@ -32,7 +32,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RedeemCodeBottomSheetModal extends BottomSheetDialogFragment {
-
     View view;
     ConsolePreferences consolePreferences;
     RequestDialog requestDialog;

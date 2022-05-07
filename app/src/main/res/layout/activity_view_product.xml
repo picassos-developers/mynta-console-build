@@ -50,6 +50,8 @@
                     android:textAllCaps="true"
                     android:textColor="?color_dark"
                     android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
                     tools:ignore="RelativeOverlap" />
 
                 <ImageView
@@ -293,7 +295,6 @@
                                     android:layout_width="12dp"
                                     android:layout_height="12dp"
                                     android:src="@drawable/icon_star_color"
-                                    android:layout_gravity="center_vertical"
                                     tools:ignore="ContentDescription" />
 
                                 <TextView
@@ -304,7 +305,6 @@
                                     android:layout_marginStart="5dp"
                                     android:textColor="#FEBE09"
                                     android:textSize="11sp"
-                                    android:layout_gravity="center_vertical"
                                     tools:ignore="HardcodedText" />
 
                             </LinearLayout>
@@ -319,7 +319,7 @@
                                 android:text="Hey Guys, Been throwing up some designs in my shop as stickers. Feel free to drop on by."
                                 android:fontFamily="@font/poppins_regular"
                                 android:textColor="?color_dark"
-                                android:textSize="10sp"
+                                android:textSize="11sp"
                                 tools:ignore="HardcodedText,SmallSp" />
 
                             <LinearLayout

@@ -353,6 +353,7 @@ attr color_icon
 attr color_light
 attr color_light_separate
 attr color_lighter
+attr color_transparent
 attr commitIcon
 attr constraintRotate
 attr constraintSet
@@ -1421,6 +1422,7 @@ color color_background
 color color_blue
 color color_danger
 color color_dark
+color color_dark_alpha
 color color_darker
 color color_green
 color color_grey
@@ -1428,6 +1430,7 @@ color color_grey_lighter
 color color_light_white
 color color_primary
 color color_white
+color color_white_alpha
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -3196,6 +3199,7 @@ drawable ic_uncheck_box
 drawable ic_union_pay
 drawable ic_updatedvisa
 drawable ic_warning_grey_24dp
+drawable icon_about_outline
 drawable icon_account_filled
 drawable icon_account_outline
 drawable icon_add
@@ -3210,6 +3214,7 @@ drawable icon_basketball
 drawable icon_bell_filled
 drawable icon_bell_outline
 drawable icon_book
+drawable icon_build_filled
 drawable icon_carrot
 drawable icon_cart_filled
 drawable icon_cart_outline
@@ -3700,6 +3705,7 @@ id btn_72hour_see_more
 id btn_conversion_options
 id btn_get_started
 id buf_text
+id build
 id business
 id buttonPanel
 id buttonText
@@ -3893,7 +3899,6 @@ id download
 id download_privacy
 id download_terms
 id download_via_wifi
-id downloads
 id downloads_page
 id dragAnticlockwise
 id dragClockwise
@@ -4086,6 +4091,7 @@ id latest_update
 id launch_app
 id layout
 id learn_more
+id learnmore
 id learnmore_description
 id learnmore_title
 id left
@@ -4359,7 +4365,6 @@ id pinterest_container
 id pinterest_provider
 id policies_container
 id policies_content
-id policies_learnmore
 id policies_title
 id policy_effective_date
 id position
@@ -4955,7 +4960,6 @@ layout activity_check_status
 layout activity_check_ticket
 layout activity_claim_gift
 layout activity_comments
-layout activity_downloads
 layout activity_edit_comment
 layout activity_edit_project
 layout activity_edit_walkthrough
@@ -5279,6 +5283,7 @@ layout ticket_options_bottom_sheet_modal
 layout toast_layout_alert
 layout toast_layout_primary
 layout toast_layout_warning
+layout toasto_layout
 layout toggle_switch_layout
 layout top_banner_container
 layout transaction_details_bottom_sheet_layout
@@ -5332,6 +5337,7 @@ string abc_toolbar_collapse_description
 string about
 string about_app_updated
 string about_application
+string about_application_description
 string about_console
 string about_console_description
 string access_token
@@ -5664,7 +5670,6 @@ string members
 string mint_console_credits
 string mint_console_for_android
 string mint_console_newsletter
-string mint_powerups
 string motion_easing_standard_missing_control_point
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
@@ -5705,6 +5710,8 @@ string mtrl_timepicker_confirm
 string my_account
 string my_power_ups
 string my_tickets
+string mynta_powerups
+string mynta_team_author
 string navigation
 string navigation_icon
 string navigation_link
@@ -6146,7 +6153,6 @@ string paypal_checkout_zip_code_error
 string paypal_logo
 string paypal_payment
 string per_page
-string picassos_author
 string picassos_newsletter
 string picassos_products
 string pinterest
@@ -6237,6 +6243,7 @@ string settings_saved
 string setup_google_firebase
 string setup_policies
 string share_content
+string share_content_description
 string share_content_updated
 string share_your_location_geolocation_in_your_app_with_google_maps_content_provider
 string short_password
@@ -6314,7 +6321,7 @@ string using_latest_update
 string verification_code
 string verification_code_empty
 string verification_code_expired
-string verified_by_picassos_developers
+string verified_by_mynta_team
 string verify
 string verify_by_phone
 string verify_your_mynta_app
@@ -7641,7 +7648,7 @@ styleable TextAppearance android_textSize android_typeface android_textStyle and
 styleable TextEffects android_textSize android_typeface android_textStyle android_text android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily borderRound borderRoundPercent textFillColor textOutlineColor textOutlineThickness
 styleable TextInputEditText textInputLayoutFocusedRectEnabled
 styleable TextInputLayout android_enabled android_textColorHint android_maxWidth android_minWidth android_hint android_maxEms android_minEms boxBackgroundColor boxBackgroundMode boxCollapsedPaddingTop boxCornerRadiusBottomEnd boxCornerRadiusBottomStart boxCornerRadiusTopEnd boxCornerRadiusTopStart boxStrokeColor boxStrokeErrorColor boxStrokeWidth boxStrokeWidthFocused counterEnabled counterMaxLength counterOverflowTextAppearance counterOverflowTextColor counterTextAppearance counterTextColor endIconCheckable endIconContentDescription endIconDrawable endIconMode endIconTint endIconTintMode errorContentDescription errorEnabled errorIconDrawable errorIconTint errorIconTintMode errorTextAppearance errorTextColor expandedHintEnabled helperText helperTextEnabled helperTextTextAppearance helperTextTextColor hintAnimationEnabled hintEnabled hintTextAppearance hintTextColor passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode placeholderText placeholderTextAppearance placeholderTextColor prefixText prefixTextAppearance prefixTextColor shapeAppearance shapeAppearanceOverlay startIconCheckable startIconContentDescription startIconDrawable startIconTint startIconTintMode suffixText suffixTextAppearance suffixTextColor
-styleable ThemeAdapter color_active color_background color_background_alternative color_card_alert color_dark color_dark_separate color_darker color_grey color_grey_sheet color_icon color_light color_light_separate color_lighter divider_inline header_logo item_drawer
+styleable ThemeAdapter color_active color_background color_background_alternative color_card_alert color_dark color_dark_separate color_darker color_grey color_grey_sheet color_icon color_light color_light_separate color_lighter color_transparent divider_inline header_logo item_drawer
 styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTextAppearance
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight menu navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
 styleable Tooltip android_textAppearance android_textColor android_padding android_layout_margin android_minWidth android_minHeight android_text backgroundTint

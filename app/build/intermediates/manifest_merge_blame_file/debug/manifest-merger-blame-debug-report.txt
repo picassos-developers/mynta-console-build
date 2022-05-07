@@ -6,22 +6,22 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+8-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+9-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:6:5-67
-11-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:6:22-64
+11-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:7:5-65
-12-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:7:22-62
+12-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:7:5-65
+12-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:7:22-62
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:8:5-10:40
-13-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:9:9-65
+13-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:8:5-10:40
+13-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:9:9-65
 14    <uses-permission android:name="com.android.vending.BILLING" />
-14-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:11:5-67
-14-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:11:22-64
+14-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:11:5-67
+14-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:11:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:11:5-79
 15-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:11:22-76
@@ -45,705 +45,702 @@
 26        <intent>
 26-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:20:9-26:18
 27            <action android:name="android.intent.action.VIEW" />
-27-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:17-69
-27-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:25-66
+27-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:17-69
+27-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:25-66
 28
 29            <category android:name="android.intent.category.BROWSABLE" />
-29-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:17-78
-29-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:27-75
+29-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:17-78
+29-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:27-75
 30
 31            <data android:scheme="https" />
-31-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:133:17-136:46
-31-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:136:21-43
+31-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:132:17-135:46
+31-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:135:21-43
 32        </intent>
 33    </queries>
 34
 35    <application
-35-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:13:5-172:19
+35-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:13:5-171:19
 36        android:name="app.mynta.console.android.App"
-36-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:14:9-28
+36-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:14:9-28
 37        android:allowBackup="true"
-37-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:15:9-35
+37-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:15:9-35
 38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 38-->[androidx.core:core:1.7.0] C:\Users\ho\.gradle\caches\transforms-3\e338600c0c6e33d1ac625507ea21cf70\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 39        android:debuggable="true"
 40        android:icon="@mipmap/ic_launcher"
-40-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:16:9-43
+40-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:16:9-43
 41        android:label="@string/app_name"
-41-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:17:9-41
+41-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:17:9-41
 42        android:supportsRtl="true"
-42-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:18:9-35
+42-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:18:9-35
 43        android:theme="@style/AppTheme"
-43-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:19:9-40
+43-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:19:9-40
 44        android:usesCleartextTraffic="true" >
-44-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:20:9-44
+44-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:20:9-44
 45        <activity
-45-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:21:9-23:40
+45-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:21:9-23:40
 46            android:name="app.mynta.console.android.activities.helpCentre.HelpActivity"
-46-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:22:13-63
+46-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:22:13-63
 47            android:exported="false" />
-47-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:23:13-37
+47-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:23:13-37
 48        <activity
-48-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:24:9-26:40
+48-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:24:9-26:40
 49            android:name="app.mynta.console.android.activities.AppSettingsActivity"
-49-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:25:13-59
+49-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:25:13-59
 50            android:exported="false" />
-50-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:26:13-37
+50-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:26:13-37
 51        <activity
-51-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:27:9-29:40
+51-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:27:9-29:40
 52            android:name="app.mynta.console.android.activities.AboutAppActivity"
-52-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:28:13-56
+52-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:28:13-56
 53            android:exported="false" />
-53-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:29:13-37
+53-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:29:13-37
 54        <activity
-54-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:30:9-32:40
+54-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:30:9-32:40
 55            android:name="app.mynta.console.android.activities.ThemeStyleActivity"
-55-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:31:13-58
+55-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:31:13-58
 56            android:exported="false" />
-56-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:32:13-37
+56-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:32:13-37
 57        <activity
-57-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:33:9-35:40
+57-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:33:9-35:40
 58            android:name="app.mynta.console.android.activities.PushNotificationsActivity"
-58-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:34:13-65
+58-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:34:13-65
 59            android:exported="false" />
-59-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:35:13-37
+59-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:35:13-37
 60        <activity
-60-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:36:9-38:39
+60-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:36:9-38:39
 61            android:name="app.mynta.console.android.activities.store.powerups.customdarkmode.SetupCustomDarkModeActivity"
-61-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:37:13-97
+61-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:37:13-97
 62            android:exported="true" />
-62-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:38:13-36
+62-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:38:13-36
 63        <activity
-63-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:39:9-41:39
+63-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:39:9-41:39
 64            android:name="app.mynta.console.android.activities.store.powerups.policies.FinishPoliciesSetupActivity"
-64-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:40:13-91
+64-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:40:13-91
 65            android:exported="true" />
-65-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:41:13-36
+65-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:41:13-36
 66        <activity android:name="app.mynta.console.android.activities.store.powerups.policies.SetupPoliciesActivity" />
-66-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:42:9-94
-66-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:42:19-91
+66-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:42:9-94
+66-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:42:19-91
 67        <activity
-67-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:43:9-45:39
+67-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:43:9-45:39
 68            android:name="app.mynta.console.android.activities.store.WriteReviewActivity"
-68-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:44:13-65
+68-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:44:13-65
 69            android:exported="true" />
-69-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:45:13-36
+69-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:45:13-36
 70        <activity
-70-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:46:9-48:39
+70-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:46:9-48:39
 71            android:name="app.mynta.console.android.activities.CheckStatusActivity"
-71-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:47:13-59
+71-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:47:13-59
 72            android:exported="true" />
-72-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:48:13-36
+72-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:48:13-36
 73        <activity
-73-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:49:9-51:39
+73-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:49:9-51:39
 74            android:name="app.mynta.console.android.activities.store.ProductPurchasedActivity"
-74-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:50:13-70
+74-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:50:13-70
 75            android:exported="true" />
-75-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:51:13-36
+75-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:51:13-36
 76        <activity
-76-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:52:9-54:39
+76-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:52:9-54:39
 77            android:name="app.mynta.console.android.activities.store.ViewProductActivity"
-77-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:53:13-65
+77-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:53:13-65
 78            android:exported="true" />
-78-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:54:13-36
+78-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:54:13-36
 79        <activity
-79-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:55:9-57:39
+79-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:55:9-57:39
 80            android:name="app.mynta.console.android.activities.ShareContentActivity"
-80-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:56:13-60
+80-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:56:13-60
 81            android:exported="true" />
-81-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:57:13-36
+81-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:57:13-36
 82        <activity
-82-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:58:9-60:39
+82-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:58:9-60:39
 83            android:name="app.mynta.console.android.activities.ClaimGiftActivity"
-83-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:59:13-57
+83-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:59:13-57
 84            android:exported="true" />
-84-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:60:13-36
+84-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:60:13-36
 85        <activity
-85-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:61:9-63:39
+85-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:61:9-63:39
 86            android:name="app.mynta.console.android.activities.GiftActivity"
-86-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:62:13-52
+86-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:62:13-52
 87            android:exported="true" />
-87-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:63:13-36
+87-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:63:13-36
 88        <activity
-88-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:64:9-66:39
+88-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:64:9-66:39
 89            android:name="app.mynta.console.android.activities.PreviewWalkthroughActivity"
-89-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:65:13-66
+89-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:65:13-66
 90            android:exported="true" />
-90-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:66:13-36
+90-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:66:13-36
 91        <activity
-91-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:67:9-69:39
+91-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:67:9-69:39
 92            android:name="app.mynta.console.android.activities.LoginProvidersActivity"
-92-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:68:13-62
+92-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:68:13-62
 93            android:exported="true" />
-93-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:69:13-36
+93-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:69:13-36
 94
 95        <provider
 96            android:name="androidx.core.content.FileProvider"
-96-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:72:13-62
+96-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:72:13-62
 97            android:authorities="app.mynta.console.android.provider"
-97-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:73:13-60
+97-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:73:13-60
 98            android:exported="false"
-98-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:74:13-37
+98-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:74:13-37
 99            android:grantUriPermissions="true" >
-99-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:75:13-47
+99-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:75:13-47
 100            <meta-data
-100-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:76:13-78:58
+100-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:76:13-78:58
 101                android:name="android.support.FILE_PROVIDER_PATHS"
-101-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:77:17-67
+101-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:77:17-67
 102                android:resource="@xml/provider_paths" />
-102-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:78:17-55
+102-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:78:17-55
 103        </provider>
 104
-105        <activity android:name="app.mynta.console.android.activities.DownloadsActivity" />
-105-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:81:9-66
-105-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:81:19-63
-106        <activity
-106-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:82:9-84:39
-107            android:name="app.mynta.console.android.activities.about.AboutConsoleActivity"
-107-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:83:13-66
-108            android:exported="true" />
-108-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:84:13-36
-109        <activity android:name="app.mynta.console.android.activities.EditProjectActivity" />
-109-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:85:9-68
-109-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:85:19-65
-110        <activity android:name="app.mynta.console.android.activities.manageAds.SetGoogleAdmobActivity" />
-110-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:86:9-81
-110-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:86:19-78
-111        <activity android:name="app.mynta.console.android.activities.manageAds.SetFacebookNetworkActivity" />
-111-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:87:9-85
-111-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:87:19-82
-112        <activity android:name="app.mynta.console.android.activities.forgotPassword.ResetPasswordActivity" />
-112-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:88:9-85
-112-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:88:19-82
-113        <activity android:name="app.mynta.console.android.activities.forgotPassword.EnterVerificationActivity" />
-113-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:89:9-89
-113-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:89:19-86
-114        <activity android:name="app.mynta.console.android.activities.projects.ProjectsActivity" />
-114-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:90:9-74
-114-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:90:19-71
-115        <activity android:name="app.mynta.console.android.activities.RegisterActivity" />
-115-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:91:9-65
-115-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:91:19-62
-116        <activity android:name="app.mynta.console.android.activities.projects.AddProjectActivity" />
-116-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:92:9-76
-116-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:92:19-73
-117        <activity android:name="app.mynta.console.android.activities.NotificationPreviewActivity" />
-117-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:93:9-76
-117-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:93:19-73
-118        <activity android:name="app.mynta.console.android.activities.NotificationsActivity" />
-118-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:94:9-70
-118-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:94:19-67
-119        <activity android:name="app.mynta.console.android.activities.helpCentre.UpdateTicketActivity" />
-119-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:95:9-80
-119-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:95:19-77
-120        <activity android:name="app.mynta.console.android.activities.helpCentre.EditCommentActivity" />
-120-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:96:9-79
-120-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:96:19-76
-121        <activity android:name="app.mynta.console.android.activities.helpCentre.CommentsActivity" />
-121-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:97:9-76
-121-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:97:19-73
-122        <activity android:name="app.mynta.console.android.activities.helpCentre.CheckTicketActivity" />
-122-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:98:9-79
-122-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:98:19-76
-123        <activity android:name="app.mynta.console.android.activities.helpCentre.ViewArticleActivity" />
-123-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:99:9-79
-123-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:99:19-76
-124        <activity android:name="app.mynta.console.android.activities.helpCentre.ArticlesActivity" />
-124-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:100:9-76
-124-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:100:19-73
-125        <activity android:name="app.mynta.console.android.activities.helpCentre.ViewTicketActivity" />
-125-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:101:9-78
-125-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:101:19-75
-126        <activity android:name="app.mynta.console.android.activities.about.MyTicketsActivity" />
-126-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:102:9-72
-126-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:102:19-69
-127        <activity android:name="app.mynta.console.android.activities.helpCentre.SubmitTicketActivity" />
-127-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:103:9-80
-127-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:103:19-77
-128        <activity android:name="app.mynta.console.android.activities.about.UpdatePasswordActivity" />
-128-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:104:9-77
-128-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:104:19-74
-129        <activity android:name="app.mynta.console.android.activities.about.ManageAccountActivity" />
-129-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:105:9-76
-129-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:105:19-73
-130        <activity android:name="app.mynta.console.android.activities.about.GenerateAuthLoginActivity" />
-130-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:106:9-80
-130-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:106:19-77
-131        <activity android:name="app.mynta.console.android.activities.QrLoginActivity" />
-131-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:107:9-64
-131-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:107:19-61
-132        <activity android:name="app.mynta.console.android.activities.EditWalkthroughActivity" />
-132-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:108:9-72
-132-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:108:19-69
-133        <activity android:name="app.mynta.console.android.activities.manageAds.ManageAdsActivity" />
-133-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:109:9-76
-133-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:109:19-73
-134        <activity android:name="app.mynta.console.android.activities.providers.WordpressActivity" />
-134-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:110:9-76
-134-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:110:19-73
-135        <activity android:name="app.mynta.console.android.activities.WalkthroughActivity" />
-135-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:111:9-68
-135-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:111:19-65
-136        <activity android:name="app.mynta.console.android.activities.providers.VimeoActivity" />
-136-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:112:9-72
-136-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:112:19-69
-137        <activity android:name="app.mynta.console.android.activities.providers.YoutubeActivity" />
-137-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:113:9-74
-137-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:113:19-71
-138        <activity android:name="app.mynta.console.android.activities.providers.MapsActivity" />
-138-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:114:9-71
-138-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:114:19-68
-139        <activity android:name="app.mynta.console.android.activities.providers.PinterestActivity" />
-139-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:115:9-76
-139-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:115:19-73
-140        <activity android:name="app.mynta.console.android.activities.providers.ImgurActivity" />
-140-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:116:9-72
-140-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:116:19-69
-141        <activity android:name="app.mynta.console.android.activities.providers.FacebookActivity" />
-141-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:117:9-75
-141-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:117:19-72
-142        <activity android:name="app.mynta.console.android.activities.ManageUpdatesActivity" />
-142-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:118:9-70
-142-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:118:19-67
-143        <activity
-143-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:119:9-138:20
-144            android:name="app.mynta.console.android.activities.SplashActivity"
-144-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:120:13-54
-145            android:exported="true" >
-145-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:121:13-36
-146            <intent-filter>
-146-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:122:13-126:29
-147                <action android:name="android.intent.action.MAIN" />
-147-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:123:17-69
-147-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:123:25-66
-148
-149                <category android:name="android.intent.category.LAUNCHER" />
-149-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:125:17-77
-149-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:125:27-74
-150            </intent-filter>
-151            <intent-filter>
-151-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:127:13-137:29
-152                <action android:name="android.intent.action.VIEW" />
-152-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:17-69
-152-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:25-66
-153
-154                <category android:name="android.intent.category.DEFAULT" />
-154-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:130:17-76
-154-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:130:27-73
-155                <category android:name="android.intent.category.BROWSABLE" />
-155-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:17-78
-155-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:27-75
-156
-157                <data
-157-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:133:17-136:46
-158                    android:host="console.themintapp.com"
-158-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:134:21-58
-159                    android:pathPrefix="/tickets"
-159-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:135:21-50
-160                    android:scheme="https" />
-160-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:136:21-43
-161            </intent-filter>
-162        </activity>
-163        <activity android:name="app.mynta.console.android.activities.GetStartedActivity" />
-163-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:139:9-67
-163-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:139:19-64
-164        <activity android:name="app.mynta.console.android.activities.providers.WebviewActivity" />
-164-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:140:9-74
-164-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:140:19-71
-165        <activity android:name="app.mynta.console.android.activities.MembersActivity" />
-165-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:141:9-64
-165-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:141:19-61
-166        <activity android:name="app.mynta.console.android.activities.about.PurchasesActivity" />
-166-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:142:9-72
-166-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:142:19-69
-167        <activity android:name="app.mynta.console.android.activities.PoliciesActivity" />
-167-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:143:9-65
-167-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:143:19-62
-168        <activity
-168-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:144:9-147:56
-169            android:name="app.mynta.console.android.activities.LoginActivity"
-169-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:145:13-53
-170            android:screenOrientation="portrait" />
-170-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:146:13-49
-171        <activity
-171-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:148:9-152:56
-172            android:name="app.mynta.console.android.activities.MainActivity"
-172-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:149:13-52
-173            android:exported="true"
-173-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:150:13-36
-174            android:screenOrientation="portrait" />
-174-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:151:13-49
-175
-176        <service
-176-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:154:9-160:19
-177            android:name="app.mynta.console.android.firebase.MyFirebaseMessagingService"
-177-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:155:13-64
-178            android:exported="false" >
-178-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:156:13-37
-179            <intent-filter>
-179-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:157:13-159:29
-180                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-180-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:158:17-78
-180-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:158:25-75
-181            </intent-filter>
-182        </service>
-183
-184        <activity
-184-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:162:9-164:39
-185            android:name="com.paypal.pyplcheckout.home.view.activities.PYPLInitiateCheckoutActivity"
-185-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:163:13-101
-186            android:exported="true"
-186-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:164:13-36
-187            android:launchMode="singleTask"
-187-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:27:13-44
-188            android:screenOrientation="portrait"
-188-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:28:13-49
-189            android:theme="@style/AppFullScreenTheme" >
-189-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:29:13-54
-190            <intent-filter android:autoVerify="true" >
-190-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:30:13-39:29
-190-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:30:28-53
-191                <data
-191-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:133:17-136:46
-192                    android:host="paypalxo"
-192-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:134:21-58
-193                    android:scheme="app.mynta.console.android" />
-193-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:136:21-43
-194
-195                <action android:name="android.intent.action.VIEW" />
-195-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:17-69
-195-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:25-66
-196
-197                <category android:name="android.intent.category.DEFAULT" />
-197-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:130:17-76
-197-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:130:27-73
-198                <category android:name="android.intent.category.BROWSABLE" />
-198-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:17-78
-198-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:27-75
-199            </intent-filter>
-200        </activity>
-201        <activity
-201-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:165:9-167:39
-202            android:name="com.paypal.openid.RedirectUriReceiverActivity"
-202-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:166:13-73
-203            android:excludeFromRecents="true"
-203-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:45:13-46
-204            android:exported="true"
-204-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:167:13-36
-205            android:screenOrientation="portrait"
-205-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:47:13-49
-206            android:theme="@style/PYPLAppTheme" >
-206-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:48:13-48
-207            <intent-filter android:autoVerify="true" >
-207-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:49:13-58:29
-207-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:49:28-53
-208                <action android:name="android.intent.action.VIEW" />
-208-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:17-69
-208-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:25-66
-209
-210                <category android:name="android.intent.category.DEFAULT" />
-210-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:130:17-76
-210-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:130:27-73
-211                <category android:name="android.intent.category.BROWSABLE" />
-211-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:17-78
-211-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:27-75
-212
-213                <data
-213-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:133:17-136:46
-214                    android:host="paypalpay"
-214-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:134:21-58
-215                    android:scheme="app.mynta.console.android" />
-215-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:136:21-43
-216            </intent-filter>
-217        </activity>
-218
-219        <meta-data
-219-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:169:9-171:67
-220            android:name="com.google.firebase.messaging.default_notification_channel_id"
-220-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:170:13-89
-221            android:value="@string/notification_channel_server" />
-221-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:171:13-64
-222
-223        <activity
-223-->[com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
-224            android:name="com.karumi.dexter.DexterActivity"
-224-->[com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
-225            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-225-->[com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
-226
-227        <service
-227-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:10:9-16:19
-228            android:name="com.ixuea.android.downloader.DownloadService"
-228-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:11:13-72
-229            android:exported="true" >
-229-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:12:13-36
-230            <intent-filter>
-230-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:13:13-15:29
-231                <action android:name="com.ixuea.android.downloader.DOWNLOAD_SERVICE" />
-231-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:14:17-88
-231-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:14:25-85
-232            </intent-filter>
-233        </service>
-234
-235        <activity
-235-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:17:9-23:51
-236            android:name="com.paypal.pyplcheckout.home.view.activities.PYPLHomeActivity"
-236-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:18:13-89
-237            android:exported="false"
-237-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:19:13-37
-238            android:launchMode="singleTop"
-238-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:20:13-43
-239            android:screenOrientation="portrait"
-239-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:21:13-49
-240            android:taskAffinity="com.pyplcheckout.task"
-240-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:22:13-57
-241            android:theme="@style/PYPLAppTheme" />
-241-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:23:13-48
-242
-243        <meta-data
-243-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:13:9-15:37
-244            android:name="com.google.android.play.billingclient.version"
-244-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:14:13-73
-245            android:value="4.1.0" />
-245-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:15:13-34
-246
-247        <activity
-247-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:17:9-21:75
-248            android:name="com.android.billingclient.api.ProxyBillingActivity"
-248-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:18:13-78
-249            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-249-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:19:13-96
-250            android:exported="false"
-250-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:20:13-37
-251            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-251-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:21:13-72
-252
-253        <provider
-253-->[com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-254            android:name="com.squareup.picasso.PicassoProvider"
-254-->[com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-255            android:authorities="app.mynta.console.android.com.squareup.picasso"
-255-->[com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-256            android:exported="false" />
-256-->[com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-257
-258        <service
-258-->[androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
-259            android:name="androidx.room.MultiInstanceInvalidationService"
-259-->[androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
-260            android:directBootAware="true"
-260-->[androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
-261            android:exported="false" />
-261-->[androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
-262
-263        <receiver
-263-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
-264            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-264-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
-265            android:exported="true"
-265-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
-266            android:permission="com.google.android.c2dm.permission.SEND" >
-266-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
-267            <intent-filter>
-267-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
-268                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-268-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
-268-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
-269            </intent-filter>
-270        </receiver>
-271        <!--
-272             FirebaseMessagingService performs security checks at runtime,
-273             but set to not exported to explicitly avoid allowing another app to call it.
-274        -->
-275        <service
-275-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
-276            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-276-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
-277            android:directBootAware="true"
-277-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
-278            android:exported="false" >
-278-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
-279            <intent-filter android:priority="-500" >
-279-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:157:13-159:29
-280                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-280-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:158:17-78
-280-->E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:158:25-75
-281            </intent-filter>
-282        </service>
-283        <service
-283-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
-284            android:name="com.google.firebase.components.ComponentDiscoveryService"
-284-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:50:13-84
-285            android:directBootAware="true"
-285-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-286            android:exported="false" >
-286-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
-287            <meta-data
-287-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
-288                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-288-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
-289                android:value="com.google.firebase.components.ComponentRegistrar" />
-289-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
-290            <meta-data
-290-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ho\.gradle\caches\transforms-3\bf220a058ffa6528568821399891f834\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
-291                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-291-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ho\.gradle\caches\transforms-3\bf220a058ffa6528568821399891f834\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
-292                android:value="com.google.firebase.components.ComponentRegistrar" />
-292-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ho\.gradle\caches\transforms-3\bf220a058ffa6528568821399891f834\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
-293            <meta-data
-293-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\22b40927748f9ddc331855d03853f140\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:30:13-32:85
-294                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-294-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\22b40927748f9ddc331855d03853f140\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:31:17-139
-295                android:value="com.google.firebase.components.ComponentRegistrar" />
-295-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\22b40927748f9ddc331855d03853f140\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:32:17-82
-296            <meta-data
-296-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\935ef6ad233db0ebe2b89a37c06dfd51\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
-297                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-297-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\935ef6ad233db0ebe2b89a37c06dfd51\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
-298                android:value="com.google.firebase.components.ComponentRegistrar" />
-298-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\935ef6ad233db0ebe2b89a37c06dfd51\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
-299        </service>
-300        <service
-300-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
-301            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-301-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
-302            android:exported="false" >
-302-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
-303            <meta-data
-303-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
-304                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-304-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
-305                android:value="cct" />
-305-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
-306        </service>
-307
-308        <provider
-308-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-309            android:name="com.google.firebase.provider.FirebaseInitProvider"
-309-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-310            android:authorities="app.mynta.console.android.firebaseinitprovider"
-310-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-311            android:directBootAware="true"
-311-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-312            android:exported="false"
-312-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-313            android:initOrder="100" />
-313-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-314
-315        <receiver
-315-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:29:9-33:20
-316            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-316-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:30:13-85
-317            android:enabled="true"
-317-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:31:13-35
-318            android:exported="false" >
-318-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:32:13-37
-319        </receiver>
-320
-321        <service
-321-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:35:9-38:40
-322            android:name="com.google.android.gms.measurement.AppMeasurementService"
-322-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:36:13-84
-323            android:enabled="true"
-323-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:37:13-35
-324            android:exported="false" />
-324-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:38:13-37
-325        <service
-325-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:39:9-43:72
-326            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-326-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:40:13-87
-327            android:enabled="true"
-327-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:41:13-35
-328            android:exported="false"
-328-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:42:13-37
-329            android:permission="android.permission.BIND_JOB_SERVICE" />
-329-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:43:13-69
-330
-331        <meta-data
-331-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\525675019ff0b9698861a5898cfe2a01\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-332            android:name="com.google.android.gms.version"
-332-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\525675019ff0b9698861a5898cfe2a01\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-333            android:value="@integer/google_play_services_version" />
-333-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\525675019ff0b9698861a5898cfe2a01\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-334
-335        <provider
-335-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-336            android:name="androidx.startup.InitializationProvider"
-336-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-337            android:authorities="app.mynta.console.android.androidx-startup"
-337-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-338            android:exported="false" >
-338-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-339            <meta-data
-339-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-340                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-340-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-341                android:value="androidx.startup" />
-341-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-342            <meta-data
-342-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ho\.gradle\caches\transforms-3\fa3fb5bf771e8e56a6050d62c823ffbb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-343                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-343-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ho\.gradle\caches\transforms-3\fa3fb5bf771e8e56a6050d62c823ffbb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-344                android:value="androidx.startup" />
-344-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ho\.gradle\caches\transforms-3\fa3fb5bf771e8e56a6050d62c823ffbb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-345        </provider>
-346
-347        <service
-347-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
-348            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-348-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
-349            android:exported="false"
-349-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
-350            android:permission="android.permission.BIND_JOB_SERVICE" >
-350-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
-351        </service>
-352
-353        <receiver
-353-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
-354            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-354-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
-355            android:exported="false" />
-355-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
-356
-357        <activity android:name="com.paypal.authcore.authentication.TokenActivity" />
-357-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:30:9-85
-357-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:30:19-82
-358        <activity
-358-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:31:9-35:75
-359            android:name="com.paypal.openid.AuthorizationManagementActivity"
-359-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:32:13-77
-360            android:exported="false"
-360-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:33:13-37
-361            android:launchMode="singleTask"
-361-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:34:13-44
-362            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-362-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:35:13-72
-363
-364        <provider
-364-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:17:9-21:40
-365            android:name="com.cardinalcommerce.shared.cs.utils.CCInitProvider"
-365-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:18:13-79
-366            android:authorities="app.mynta.console.android.CCInitProvider"
-366-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:19:13-66
-367            android:enabled="true"
-367-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:20:13-35
-368            android:exported="false" />
-368-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:21:13-37
-369
-370        <activity
-370-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:23:9-25:65
-371            android:name="com.cardinalcommerce.shared.cs.userinterfaces.ChallengeHTMLView"
-371-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:24:13-91
-372            android:theme="@style/CardinalSDKTheme.ActionBar" />
-372-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:25:13-62
-373        <activity
-373-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:26:9-29:76
-374            android:name="com.cardinalcommerce.shared.cs.userinterfaces.ChallengeNativeView"
-374-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:27:13-93
-375            android:theme="@style/CardinalSDKTheme.ActionBar"
-375-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:28:13-62
-376            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
-376-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:29:13-73
-377    </application>
-378
-379</manifest>
+105        <activity
+105-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:81:9-83:39
+106            android:name="app.mynta.console.android.activities.about.AboutConsoleActivity"
+106-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:82:13-66
+107            android:exported="true" />
+107-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:83:13-36
+108        <activity android:name="app.mynta.console.android.activities.EditProjectActivity" />
+108-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:84:9-68
+108-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:84:19-65
+109        <activity android:name="app.mynta.console.android.activities.manageAds.SetGoogleAdmobActivity" />
+109-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:85:9-81
+109-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:85:19-78
+110        <activity android:name="app.mynta.console.android.activities.manageAds.SetFacebookNetworkActivity" />
+110-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:86:9-85
+110-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:86:19-82
+111        <activity android:name="app.mynta.console.android.activities.forgotPassword.ResetPasswordActivity" />
+111-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:87:9-85
+111-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:87:19-82
+112        <activity android:name="app.mynta.console.android.activities.forgotPassword.EnterVerificationActivity" />
+112-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:88:9-89
+112-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:88:19-86
+113        <activity android:name="app.mynta.console.android.activities.projects.ProjectsActivity" />
+113-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:89:9-74
+113-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:89:19-71
+114        <activity android:name="app.mynta.console.android.activities.RegisterActivity" />
+114-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:90:9-65
+114-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:90:19-62
+115        <activity android:name="app.mynta.console.android.activities.projects.AddProjectActivity" />
+115-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:91:9-76
+115-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:91:19-73
+116        <activity android:name="app.mynta.console.android.activities.NotificationPreviewActivity" />
+116-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:92:9-76
+116-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:92:19-73
+117        <activity android:name="app.mynta.console.android.activities.NotificationsActivity" />
+117-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:93:9-70
+117-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:93:19-67
+118        <activity android:name="app.mynta.console.android.activities.helpCentre.UpdateTicketActivity" />
+118-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:94:9-80
+118-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:94:19-77
+119        <activity android:name="app.mynta.console.android.activities.helpCentre.EditCommentActivity" />
+119-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:95:9-79
+119-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:95:19-76
+120        <activity android:name="app.mynta.console.android.activities.helpCentre.CommentsActivity" />
+120-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:96:9-76
+120-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:96:19-73
+121        <activity android:name="app.mynta.console.android.activities.helpCentre.CheckTicketActivity" />
+121-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:97:9-79
+121-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:97:19-76
+122        <activity android:name="app.mynta.console.android.activities.helpCentre.ViewArticleActivity" />
+122-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:98:9-79
+122-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:98:19-76
+123        <activity android:name="app.mynta.console.android.activities.helpCentre.ArticlesActivity" />
+123-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:99:9-76
+123-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:99:19-73
+124        <activity android:name="app.mynta.console.android.activities.helpCentre.ViewTicketActivity" />
+124-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:100:9-78
+124-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:100:19-75
+125        <activity android:name="app.mynta.console.android.activities.about.MyTicketsActivity" />
+125-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:101:9-72
+125-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:101:19-69
+126        <activity android:name="app.mynta.console.android.activities.helpCentre.SubmitTicketActivity" />
+126-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:102:9-80
+126-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:102:19-77
+127        <activity android:name="app.mynta.console.android.activities.about.UpdatePasswordActivity" />
+127-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:103:9-77
+127-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:103:19-74
+128        <activity android:name="app.mynta.console.android.activities.about.ManageAccountActivity" />
+128-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:104:9-76
+128-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:104:19-73
+129        <activity android:name="app.mynta.console.android.activities.about.GenerateAuthLoginActivity" />
+129-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:105:9-80
+129-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:105:19-77
+130        <activity android:name="app.mynta.console.android.activities.QrLoginActivity" />
+130-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:106:9-64
+130-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:106:19-61
+131        <activity android:name="app.mynta.console.android.activities.EditWalkthroughActivity" />
+131-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:107:9-72
+131-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:107:19-69
+132        <activity android:name="app.mynta.console.android.activities.manageAds.ManageAdsActivity" />
+132-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:108:9-76
+132-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:108:19-73
+133        <activity android:name="app.mynta.console.android.activities.providers.WordpressActivity" />
+133-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:109:9-76
+133-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:109:19-73
+134        <activity android:name="app.mynta.console.android.activities.WalkthroughActivity" />
+134-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:110:9-68
+134-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:110:19-65
+135        <activity android:name="app.mynta.console.android.activities.providers.VimeoActivity" />
+135-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:111:9-72
+135-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:111:19-69
+136        <activity android:name="app.mynta.console.android.activities.providers.YoutubeActivity" />
+136-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:112:9-74
+136-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:112:19-71
+137        <activity android:name="app.mynta.console.android.activities.providers.MapsActivity" />
+137-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:113:9-71
+137-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:113:19-68
+138        <activity android:name="app.mynta.console.android.activities.providers.PinterestActivity" />
+138-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:114:9-76
+138-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:114:19-73
+139        <activity android:name="app.mynta.console.android.activities.providers.ImgurActivity" />
+139-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:115:9-72
+139-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:115:19-69
+140        <activity android:name="app.mynta.console.android.activities.providers.FacebookActivity" />
+140-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:116:9-75
+140-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:116:19-72
+141        <activity android:name="app.mynta.console.android.activities.ManageUpdatesActivity" />
+141-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:117:9-70
+141-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:117:19-67
+142        <activity
+142-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:118:9-137:20
+143            android:name="app.mynta.console.android.activities.SplashActivity"
+143-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:119:13-54
+144            android:exported="true" >
+144-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:120:13-36
+145            <intent-filter>
+145-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:121:13-125:29
+146                <action android:name="android.intent.action.MAIN" />
+146-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:122:17-69
+146-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:122:25-66
+147
+148                <category android:name="android.intent.category.LAUNCHER" />
+148-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:124:17-77
+148-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:124:27-74
+149            </intent-filter>
+150            <intent-filter>
+150-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:126:13-136:29
+151                <action android:name="android.intent.action.VIEW" />
+151-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:17-69
+151-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:25-66
+152
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:129:17-76
+153-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:129:27-73
+154                <category android:name="android.intent.category.BROWSABLE" />
+154-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:17-78
+154-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:27-75
+155
+156                <data
+156-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:132:17-135:46
+157                    android:host="console.themintapp.com"
+157-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:133:21-58
+158                    android:pathPrefix="/tickets"
+158-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:134:21-50
+159                    android:scheme="https" />
+159-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:135:21-43
+160            </intent-filter>
+161        </activity>
+162        <activity android:name="app.mynta.console.android.activities.GetStartedActivity" />
+162-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:138:9-67
+162-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:138:19-64
+163        <activity android:name="app.mynta.console.android.activities.providers.WebviewActivity" />
+163-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:139:9-74
+163-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:139:19-71
+164        <activity android:name="app.mynta.console.android.activities.MembersActivity" />
+164-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:140:9-64
+164-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:140:19-61
+165        <activity android:name="app.mynta.console.android.activities.about.PurchasesActivity" />
+165-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:141:9-72
+165-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:141:19-69
+166        <activity android:name="app.mynta.console.android.activities.PoliciesActivity" />
+166-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:142:9-65
+166-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:142:19-62
+167        <activity
+167-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:143:9-146:56
+168            android:name="app.mynta.console.android.activities.LoginActivity"
+168-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:144:13-53
+169            android:screenOrientation="portrait" />
+169-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:145:13-49
+170        <activity
+170-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:147:9-151:56
+171            android:name="app.mynta.console.android.activities.MainActivity"
+171-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:148:13-52
+172            android:exported="true"
+172-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:149:13-36
+173            android:screenOrientation="portrait" />
+173-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:150:13-49
+174
+175        <service
+175-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:153:9-159:19
+176            android:name="app.mynta.console.android.firebase.MyFirebaseMessagingService"
+176-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:154:13-64
+177            android:exported="false" >
+177-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:155:13-37
+178            <intent-filter>
+178-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:156:13-158:29
+179                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+179-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:157:17-78
+179-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:157:25-75
+180            </intent-filter>
+181        </service>
+182
+183        <activity
+183-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:161:9-163:39
+184            android:name="com.paypal.pyplcheckout.home.view.activities.PYPLInitiateCheckoutActivity"
+184-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:162:13-101
+185            android:exported="true"
+185-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:163:13-36
+186            android:launchMode="singleTask"
+186-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:27:13-44
+187            android:screenOrientation="portrait"
+187-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:28:13-49
+188            android:theme="@style/AppFullScreenTheme" >
+188-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:29:13-54
+189            <intent-filter android:autoVerify="true" >
+189-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:30:13-39:29
+189-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:30:28-53
+190                <data
+190-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:132:17-135:46
+191                    android:host="paypalxo"
+191-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:133:21-58
+192                    android:scheme="app.mynta.console.android" />
+192-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:135:21-43
+193
+194                <action android:name="android.intent.action.VIEW" />
+194-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:17-69
+194-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:25-66
+195
+196                <category android:name="android.intent.category.DEFAULT" />
+196-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:129:17-76
+196-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:129:27-73
+197                <category android:name="android.intent.category.BROWSABLE" />
+197-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:17-78
+197-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:27-75
+198            </intent-filter>
+199        </activity>
+200        <activity
+200-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:164:9-166:39
+201            android:name="com.paypal.openid.RedirectUriReceiverActivity"
+201-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:165:13-73
+202            android:excludeFromRecents="true"
+202-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:45:13-46
+203            android:exported="true"
+203-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:166:13-36
+204            android:screenOrientation="portrait"
+204-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:47:13-49
+205            android:theme="@style/PYPLAppTheme" >
+205-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:48:13-48
+206            <intent-filter android:autoVerify="true" >
+206-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:49:13-58:29
+206-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:49:28-53
+207                <action android:name="android.intent.action.VIEW" />
+207-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:17-69
+207-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:25-66
+208
+209                <category android:name="android.intent.category.DEFAULT" />
+209-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:129:17-76
+209-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:129:27-73
+210                <category android:name="android.intent.category.BROWSABLE" />
+210-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:17-78
+210-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:27-75
+211
+212                <data
+212-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:132:17-135:46
+213                    android:host="paypalpay"
+213-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:133:21-58
+214                    android:scheme="app.mynta.console.android" />
+214-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:135:21-43
+215            </intent-filter>
+216        </activity>
+217
+218        <meta-data
+218-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:168:9-170:67
+219            android:name="com.google.firebase.messaging.default_notification_channel_id"
+219-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:169:13-89
+220            android:value="@string/notification_channel_server" />
+220-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:170:13-64
+221
+222        <activity
+222-->[com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+223            android:name="com.karumi.dexter.DexterActivity"
+223-->[com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
+224            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+224-->[com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
+225
+226        <service
+226-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:10:9-16:19
+227            android:name="com.ixuea.android.downloader.DownloadService"
+227-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:11:13-72
+228            android:exported="true" >
+228-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:12:13-36
+229            <intent-filter>
+229-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:13:13-15:29
+230                <action android:name="com.ixuea.android.downloader.DOWNLOAD_SERVICE" />
+230-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:14:17-88
+230-->[com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:14:25-85
+231            </intent-filter>
+232        </service>
+233
+234        <activity
+234-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:17:9-23:51
+235            android:name="com.paypal.pyplcheckout.home.view.activities.PYPLHomeActivity"
+235-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:18:13-89
+236            android:exported="false"
+236-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:19:13-37
+237            android:launchMode="singleTop"
+237-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:20:13-43
+238            android:screenOrientation="portrait"
+238-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:21:13-49
+239            android:taskAffinity="com.pyplcheckout.task"
+239-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:22:13-57
+240            android:theme="@style/PYPLAppTheme" />
+240-->[com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:23:13-48
+241
+242        <meta-data
+242-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:13:9-15:37
+243            android:name="com.google.android.play.billingclient.version"
+243-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:14:13-73
+244            android:value="4.1.0" />
+244-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:15:13-34
+245
+246        <activity
+246-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:17:9-21:75
+247            android:name="com.android.billingclient.api.ProxyBillingActivity"
+247-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:18:13-78
+248            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+248-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:19:13-96
+249            android:exported="false"
+249-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:20:13-37
+250            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+250-->[com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:21:13-72
+251
+252        <provider
+252-->[com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+253            android:name="com.squareup.picasso.PicassoProvider"
+253-->[com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+254            android:authorities="app.mynta.console.android.com.squareup.picasso"
+254-->[com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+255            android:exported="false" />
+255-->[com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+256
+257        <service
+257-->[androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+258            android:name="androidx.room.MultiInstanceInvalidationService"
+258-->[androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+259            android:directBootAware="true"
+259-->[androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+260            android:exported="false" />
+260-->[androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+261
+262        <receiver
+262-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+263            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+263-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+264            android:exported="true"
+264-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+265            android:permission="com.google.android.c2dm.permission.SEND" >
+265-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+266            <intent-filter>
+266-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
+267                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+267-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
+267-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
+268            </intent-filter>
+269        </receiver>
+270        <!--
+271             FirebaseMessagingService performs security checks at runtime,
+272             but set to not exported to explicitly avoid allowing another app to call it.
+273        -->
+274        <service
+274-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+275            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+275-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+276            android:directBootAware="true"
+276-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+277            android:exported="false" >
+277-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+278            <intent-filter android:priority="-500" >
+278-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:156:13-158:29
+279                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+279-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:157:17-78
+279-->E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:157:25-75
+280            </intent-filter>
+281        </service>
+282        <service
+282-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
+283            android:name="com.google.firebase.components.ComponentDiscoveryService"
+283-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:50:13-84
+284            android:directBootAware="true"
+284-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+285            android:exported="false" >
+285-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
+286            <meta-data
+286-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+287                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+287-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+288                android:value="com.google.firebase.components.ComponentRegistrar" />
+288-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ho\.gradle\caches\transforms-3\20714003f791d840a4ecae442f00d63f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+289            <meta-data
+289-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ho\.gradle\caches\transforms-3\bf220a058ffa6528568821399891f834\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+290                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+290-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ho\.gradle\caches\transforms-3\bf220a058ffa6528568821399891f834\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+291                android:value="com.google.firebase.components.ComponentRegistrar" />
+291-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ho\.gradle\caches\transforms-3\bf220a058ffa6528568821399891f834\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+292            <meta-data
+292-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\22b40927748f9ddc331855d03853f140\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:30:13-32:85
+293                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+293-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\22b40927748f9ddc331855d03853f140\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:31:17-139
+294                android:value="com.google.firebase.components.ComponentRegistrar" />
+294-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\22b40927748f9ddc331855d03853f140\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:32:17-82
+295            <meta-data
+295-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\935ef6ad233db0ebe2b89a37c06dfd51\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+296                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+296-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\935ef6ad233db0ebe2b89a37c06dfd51\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+297                android:value="com.google.firebase.components.ComponentRegistrar" />
+297-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\935ef6ad233db0ebe2b89a37c06dfd51\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+298        </service>
+299        <service
+299-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+300            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+300-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+301            android:exported="false" >
+301-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+302            <meta-data
+302-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+303                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+303-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+304                android:value="cct" />
+304-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+305        </service>
+306
+307        <provider
+307-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+308            android:name="com.google.firebase.provider.FirebaseInitProvider"
+308-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+309            android:authorities="app.mynta.console.android.firebaseinitprovider"
+309-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+310            android:directBootAware="true"
+310-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+311            android:exported="false"
+311-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+312            android:initOrder="100" />
+312-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\800da4ba083eada8bf0b8e3fca82430a\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+313
+314        <receiver
+314-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:29:9-33:20
+315            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+315-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:30:13-85
+316            android:enabled="true"
+316-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:31:13-35
+317            android:exported="false" >
+317-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:32:13-37
+318        </receiver>
+319
+320        <service
+320-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:35:9-38:40
+321            android:name="com.google.android.gms.measurement.AppMeasurementService"
+321-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:36:13-84
+322            android:enabled="true"
+322-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:37:13-35
+323            android:exported="false" />
+323-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:38:13-37
+324        <service
+324-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:39:9-43:72
+325            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+325-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:40:13-87
+326            android:enabled="true"
+326-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:41:13-35
+327            android:exported="false"
+327-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:42:13-37
+328            android:permission="android.permission.BIND_JOB_SERVICE" />
+328-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ho\.gradle\caches\transforms-3\8daa259807f0e38287fb744e008143be\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:43:13-69
+329
+330        <meta-data
+330-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\525675019ff0b9698861a5898cfe2a01\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+331            android:name="com.google.android.gms.version"
+331-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\525675019ff0b9698861a5898cfe2a01\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+332            android:value="@integer/google_play_services_version" />
+332-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ho\.gradle\caches\transforms-3\525675019ff0b9698861a5898cfe2a01\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+333
+334        <provider
+334-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+335            android:name="androidx.startup.InitializationProvider"
+335-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+336            android:authorities="app.mynta.console.android.androidx-startup"
+336-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+337            android:exported="false" >
+337-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+338            <meta-data
+338-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+339                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+339-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+340                android:value="androidx.startup" />
+340-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ho\.gradle\caches\transforms-3\49740160c4cafecdc63a896e33e870b9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+341            <meta-data
+341-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ho\.gradle\caches\transforms-3\fa3fb5bf771e8e56a6050d62c823ffbb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+342                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+342-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ho\.gradle\caches\transforms-3\fa3fb5bf771e8e56a6050d62c823ffbb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+343                android:value="androidx.startup" />
+343-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ho\.gradle\caches\transforms-3\fa3fb5bf771e8e56a6050d62c823ffbb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+344        </provider>
+345
+346        <service
+346-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+347            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+347-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+348            android:exported="false"
+348-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+349            android:permission="android.permission.BIND_JOB_SERVICE" >
+349-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+350        </service>
+351
+352        <receiver
+352-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+353            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+353-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+354            android:exported="false" />
+354-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\a77c900eedfb3b1846f96fd578c872ec\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+355
+356        <activity android:name="com.paypal.authcore.authentication.TokenActivity" />
+356-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:30:9-85
+356-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:30:19-82
+357        <activity
+357-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:31:9-35:75
+358            android:name="com.paypal.openid.AuthorizationManagementActivity"
+358-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:32:13-77
+359            android:exported="false"
+359-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:33:13-37
+360            android:launchMode="singleTask"
+360-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:34:13-44
+361            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+361-->[com.paypal.android:PayPalPartnerAuth:1.3.6] C:\Users\ho\.gradle\caches\transforms-3\748e3b3ca52d9b9d6258c7499519026f\transformed\jetified-PayPalPartnerAuth-1.3.6\AndroidManifest.xml:35:13-72
+362
+363        <provider
+363-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:17:9-21:40
+364            android:name="com.cardinalcommerce.shared.cs.utils.CCInitProvider"
+364-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:18:13-79
+365            android:authorities="app.mynta.console.android.CCInitProvider"
+365-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:19:13-66
+366            android:enabled="true"
+366-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:20:13-35
+367            android:exported="false" />
+367-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:21:13-37
+368
+369        <activity
+369-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:23:9-25:65
+370            android:name="com.cardinalcommerce.shared.cs.userinterfaces.ChallengeHTMLView"
+370-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:24:13-91
+371            android:theme="@style/CardinalSDKTheme.ActionBar" />
+371-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:25:13-62
+372        <activity
+372-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:26:9-29:76
+373            android:name="com.cardinalcommerce.shared.cs.userinterfaces.ChallengeNativeView"
+373-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:27:13-93
+374            android:theme="@style/CardinalSDKTheme.ActionBar"
+374-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:28:13-62
+375            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+375-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:29:13-73
+376    </application>
+377
+378</manifest>

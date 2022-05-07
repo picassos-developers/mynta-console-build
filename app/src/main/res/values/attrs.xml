@@ -18,5 +18,6 @@
         <attr name="header_logo" format="reference" />
         <attr name="color_card_alert" format="color" />
         <attr name="color_active" format="color" />
+        <attr name="color_transparent" format="color" />
     </declare-styleable>
 </resources>

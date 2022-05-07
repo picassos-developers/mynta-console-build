@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projects\\Mobile\\mynta_console\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
+            "outputFile": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ho\\.gradle\\caches\\transforms-3\\e338600c0c6e33d1ac625507ea21cf70\\transformed\\core-1.7.0\\res\\values-hr\\values-hr.xml",

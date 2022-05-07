@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:71:9-79:20
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:71:9-79:20
 	android:grantUriPermissions
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:75:13-47
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:75:13-47
 	android:authorities
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:73:13-60
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:73:13-60
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:74:13-37
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:74:13-37
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:72:13-62
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:72:13-62
 manifest
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
 MERGED from [com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:17:1-32:12
 MERGED from [com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:2:1-19:12
 MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:2:1-62:12
@@ -131,27 +131,27 @@ MERGED from [com.amplitude:android-sdk:2.32.2] C:\Users\ho\.gradle\caches\transf
 MERGED from [org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\ho\.gradle\caches\transforms-3\f6091530f93726be4755ddabde09f243\transformed\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:3:1-32:12
 MERGED from [androidx.test.espresso:espresso-idling-resource:3.3.0] C:\Users\ho\.gradle\caches\transforms-3\d54f44a860563e2bde53a365eaead228\transformed\espresso-idling-resource-3.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.paypal.android.sdk:data-collector:3.13.0] C:\Users\ho\.gradle\caches\transforms-3\d6d6a767eecd84415139d45298b72c09\transformed\jetified-data-collector-3.13.0\AndroidManifest.xml:2:1-13:12
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
 	package
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:4:5-40
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:4:5-40
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:12:5-67
 MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\aac37085456a85363790dc2170822f4d\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
@@ -177,27 +177,27 @@ MERGED from [org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Use
 MERGED from [com.paypal.android.sdk:data-collector:3.13.0] C:\Users\ho\.gradle\caches\transforms-3\d6d6a767eecd84415139d45298b72c09\transformed\jetified-data-collector-3.13.0\AndroidManifest.xml:11:5-67
 MERGED from [com.paypal.android.sdk:data-collector:3.13.0] C:\Users\ho\.gradle\caches\transforms-3\d6d6a767eecd84415139d45298b72c09\transformed\jetified-data-collector-3.13.0\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.CAMERA
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:7:5-65
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:8:5-10:40
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:8:5-10:40
 MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\ho\.gradle\caches\transforms-3\026d32406970d263e2c9e44171c2a31e\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:11:5-81
 MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\ho\.gradle\caches\transforms-3\026d32406970d263e2c9e44171c2a31e\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:11:5-81
 	tools:ignore
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:10:9-37
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:10:9-37
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:9:9-65
 uses-permission#com.android.vending.BILLING
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:11:5-67
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:11:5-67
 MERGED from [com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:10:5-67
 MERGED from [com.android.billingclient:billing:4.1.0] C:\Users\ho\.gradle\caches\transforms-3\e68e4ebfea28eee0f60d1c6a9b2d6b97\transformed\jetified-billing-4.1.0\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:11:22-64
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:11:22-64
 application
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:13:5-172:19
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:13:5-171:19
 MERGED from [com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:26:5-30:19
 MERGED from [com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:9:5-17:19
@@ -275,355 +275,351 @@ MERGED from [org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Use
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\ho\.gradle\caches\transforms-3\e338600c0c6e33d1ac625507ea21cf70\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:17:9-41
 	android:icon
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:19:9-40
 	android:usesCleartextTraffic
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:20:9-44
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:20:9-44
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:14:9-28
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:14:9-28
 activity#app.mynta.console.android.activities.helpCentre.HelpActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:22:13-63
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:22:13-63
 activity#app.mynta.console.android.activities.AppSettingsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:24:9-26:40
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:25:13-59
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:25:13-59
 activity#app.mynta.console.android.activities.AboutAppActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:28:13-56
 activity#app.mynta.console.android.activities.ThemeStyleActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:30:9-32:40
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:31:13-58
 activity#app.mynta.console.android.activities.PushNotificationsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:33:9-35:40
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:34:13-65
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:34:13-65
 activity#app.mynta.console.android.activities.store.powerups.customdarkmode.SetupCustomDarkModeActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:36:9-38:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:36:9-38:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:38:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:37:13-97
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:37:13-97
 activity#app.mynta.console.android.activities.store.powerups.policies.FinishPoliciesSetupActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:39:9-41:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:39:9-41:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:41:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:40:13-91
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:40:13-91
 activity#app.mynta.console.android.activities.store.powerups.policies.SetupPoliciesActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:42:9-94
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:42:9-94
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:42:19-91
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:42:19-91
 activity#app.mynta.console.android.activities.store.WriteReviewActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:43:9-45:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:43:9-45:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:45:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:45:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:44:13-65
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:44:13-65
 activity#app.mynta.console.android.activities.CheckStatusActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:46:9-48:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:46:9-48:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:47:13-59
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:47:13-59
 activity#app.mynta.console.android.activities.store.ProductPurchasedActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:49:9-51:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:49:9-51:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:50:13-70
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:50:13-70
 activity#app.mynta.console.android.activities.store.ViewProductActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:52:9-54:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:52:9-54:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:54:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:53:13-65
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:53:13-65
 activity#app.mynta.console.android.activities.ShareContentActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:55:9-57:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:55:9-57:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:57:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:57:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:56:13-60
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:56:13-60
 activity#app.mynta.console.android.activities.ClaimGiftActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:58:9-60:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:58:9-60:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:60:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:59:13-57
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:59:13-57
 activity#app.mynta.console.android.activities.GiftActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:61:9-63:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:61:9-63:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:63:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:62:13-52
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:62:13-52
 activity#app.mynta.console.android.activities.PreviewWalkthroughActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:64:9-66:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:64:9-66:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:66:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:65:13-66
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:65:13-66
 activity#app.mynta.console.android.activities.LoginProvidersActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:67:9-69:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:67:9-69:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:69:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:69:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:68:13-62
-activity#app.mynta.console.android.activities.DownloadsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:81:9-66
-	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:81:19-63
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:68:13-62
 activity#app.mynta.console.android.activities.about.AboutConsoleActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:82:9-84:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:81:9-83:39
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:84:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:83:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:83:13-66
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:82:13-66
 activity#app.mynta.console.android.activities.EditProjectActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:85:9-68
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:84:9-68
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:85:19-65
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:84:19-65
 activity#app.mynta.console.android.activities.manageAds.SetGoogleAdmobActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:86:9-81
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:85:9-81
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:86:19-78
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:85:19-78
 activity#app.mynta.console.android.activities.manageAds.SetFacebookNetworkActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:87:9-85
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:86:9-85
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:87:19-82
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:86:19-82
 activity#app.mynta.console.android.activities.forgotPassword.ResetPasswordActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:88:9-85
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:87:9-85
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:88:19-82
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:87:19-82
 activity#app.mynta.console.android.activities.forgotPassword.EnterVerificationActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:89:9-89
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:88:9-89
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:89:19-86
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:88:19-86
 activity#app.mynta.console.android.activities.projects.ProjectsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:90:9-74
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:89:9-74
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:90:19-71
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:89:19-71
 activity#app.mynta.console.android.activities.RegisterActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:91:9-65
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:90:9-65
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:91:19-62
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:90:19-62
 activity#app.mynta.console.android.activities.projects.AddProjectActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:92:9-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:91:9-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:92:19-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:91:19-73
 activity#app.mynta.console.android.activities.NotificationPreviewActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:93:9-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:92:9-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:93:19-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:92:19-73
 activity#app.mynta.console.android.activities.NotificationsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:94:9-70
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:93:9-70
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:94:19-67
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:93:19-67
 activity#app.mynta.console.android.activities.helpCentre.UpdateTicketActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:95:9-80
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:94:9-80
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:95:19-77
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:94:19-77
 activity#app.mynta.console.android.activities.helpCentre.EditCommentActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:96:9-79
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:95:9-79
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:96:19-76
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:95:19-76
 activity#app.mynta.console.android.activities.helpCentre.CommentsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:97:9-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:96:9-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:97:19-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:96:19-73
 activity#app.mynta.console.android.activities.helpCentre.CheckTicketActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:98:9-79
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:97:9-79
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:98:19-76
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:97:19-76
 activity#app.mynta.console.android.activities.helpCentre.ViewArticleActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:99:9-79
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:98:9-79
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:99:19-76
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:98:19-76
 activity#app.mynta.console.android.activities.helpCentre.ArticlesActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:100:9-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:99:9-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:100:19-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:99:19-73
 activity#app.mynta.console.android.activities.helpCentre.ViewTicketActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:101:9-78
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:100:9-78
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:101:19-75
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:100:19-75
 activity#app.mynta.console.android.activities.about.MyTicketsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:102:9-72
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:101:9-72
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:102:19-69
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:101:19-69
 activity#app.mynta.console.android.activities.helpCentre.SubmitTicketActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:103:9-80
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:102:9-80
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:103:19-77
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:102:19-77
 activity#app.mynta.console.android.activities.about.UpdatePasswordActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:104:9-77
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:103:9-77
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:104:19-74
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:103:19-74
 activity#app.mynta.console.android.activities.about.ManageAccountActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:105:9-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:104:9-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:105:19-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:104:19-73
 activity#app.mynta.console.android.activities.about.GenerateAuthLoginActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:106:9-80
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:105:9-80
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:106:19-77
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:105:19-77
 activity#app.mynta.console.android.activities.QrLoginActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:107:9-64
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:106:9-64
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:107:19-61
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:106:19-61
 activity#app.mynta.console.android.activities.EditWalkthroughActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:108:9-72
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:107:9-72
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:108:19-69
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:107:19-69
 activity#app.mynta.console.android.activities.manageAds.ManageAdsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:109:9-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:108:9-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:109:19-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:108:19-73
 activity#app.mynta.console.android.activities.providers.WordpressActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:110:9-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:109:9-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:110:19-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:109:19-73
 activity#app.mynta.console.android.activities.WalkthroughActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:111:9-68
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:110:9-68
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:111:19-65
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:110:19-65
 activity#app.mynta.console.android.activities.providers.VimeoActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:112:9-72
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:111:9-72
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:112:19-69
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:111:19-69
 activity#app.mynta.console.android.activities.providers.YoutubeActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:113:9-74
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:112:9-74
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:113:19-71
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:112:19-71
 activity#app.mynta.console.android.activities.providers.MapsActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:114:9-71
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:113:9-71
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:114:19-68
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:113:19-68
 activity#app.mynta.console.android.activities.providers.PinterestActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:115:9-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:114:9-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:115:19-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:114:19-73
 activity#app.mynta.console.android.activities.providers.ImgurActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:116:9-72
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:115:9-72
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:116:19-69
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:115:19-69
 activity#app.mynta.console.android.activities.providers.FacebookActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:117:9-75
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:116:9-75
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:117:19-72
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:116:19-72
 activity#app.mynta.console.android.activities.ManageUpdatesActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:118:9-70
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:117:9-70
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:118:19-67
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:117:19-67
 activity#app.mynta.console.android.activities.SplashActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:119:9-138:20
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:118:9-137:20
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:121:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:120:13-36
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:120:13-54
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:119:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:122:13-126:29
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:121:13-125:29
 action#android.intent.action.MAIN
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:123:17-69
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:122:17-69
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:123:25-66
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:122:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:125:17-77
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:124:17-77
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:125:27-74
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:124:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:console.themintapp.com+data:pathPrefix:/tickets+data:scheme:https
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:127:13-137:29
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:126:13-136:29
 action#android.intent.action.VIEW
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:17-69
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:17-69
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:128:25-66
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:127:25-66
 category#android.intent.category.DEFAULT
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:130:17-76
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:129:17-76
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:130:27-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:129:27-73
 category#android.intent.category.BROWSABLE
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:17-78
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:17-78
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:131:27-75
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:130:27-75
 data
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:133:17-136:46
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:132:17-135:46
 	android:host
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:134:21-58
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:133:21-58
 	android:scheme
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:136:21-43
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:135:21-43
 	android:pathPrefix
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:135:21-50
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:134:21-50
 activity#app.mynta.console.android.activities.GetStartedActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:139:9-67
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:138:9-67
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:139:19-64
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:138:19-64
 activity#app.mynta.console.android.activities.providers.WebviewActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:140:9-74
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:139:9-74
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:140:19-71
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:139:19-71
 activity#app.mynta.console.android.activities.MembersActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:141:9-64
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:140:9-64
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:141:19-61
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:140:19-61
 activity#app.mynta.console.android.activities.about.PurchasesActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:142:9-72
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:141:9-72
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:142:19-69
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:141:19-69
 activity#app.mynta.console.android.activities.PoliciesActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:143:9-65
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:142:9-65
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:143:19-62
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:142:19-62
 activity#app.mynta.console.android.activities.LoginActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:144:9-147:56
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:143:9-146:56
 	android:screenOrientation
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:146:13-49
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:145:13-49
 	tools:ignore
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:147:13-53
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:146:13-53
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:145:13-53
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:144:13-53
 activity#app.mynta.console.android.activities.MainActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:148:9-152:56
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:147:9-151:56
 	android:screenOrientation
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:151:13-49
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:150:13-49
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:150:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:149:13-36
 	tools:ignore
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:152:13-53
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:151:13-53
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:149:13-52
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:148:13-52
 service#app.mynta.console.android.firebase.MyFirebaseMessagingService
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:154:9-160:19
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:153:9-159:19
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:156:13-37
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:155:13-37
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:155:13-64
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:154:13-64
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:157:13-159:29
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:156:13-158:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:158:17-78
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:157:17-78
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:158:25-75
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:157:25-75
 activity#com.paypal.pyplcheckout.home.view.activities.PYPLInitiateCheckoutActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:162:9-164:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:161:9-163:39
 MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:24:9-40:20
 MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:24:9-40:20
 	android:screenOrientation
@@ -631,13 +627,13 @@ MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\t
 	android:launchMode
 		ADDED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:27:13-44
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:164:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:163:13-36
 	android:theme
 		ADDED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:29:13-54
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:163:13-101
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:162:13-101
 activity#com.paypal.openid.RedirectUriReceiverActivity
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:165:9-167:39
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:164:9-166:39
 MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:43:9-59:20
 MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:43:9-59:20
 	android:screenOrientation
@@ -645,21 +641,21 @@ MERGED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\t
 	android:excludeFromRecents
 		ADDED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:45:13-46
 	android:exported
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:167:13-36
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:166:13-36
 	android:theme
 		ADDED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:48:13-48
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:166:13-73
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:165:13-73
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:169:9-171:67
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:168:9-170:67
 	android:value
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:171:13-64
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:170:13-64
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:170:13-89
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:169:13-89
 uses-sdk
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 MERGED from [com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:22:5-24:41
 MERGED from [com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:22:5-24:41
 MERGED from [com.ixuea:android-downloader:3.0.0] C:\Users\ho\.gradle\caches\transforms-3\0122f2058f1fc1bf24d109cfd7f8cb20\transformed\jetified-android-downloader-3.0.0\AndroidManifest.xml:5:5-7:41
@@ -892,24 +888,24 @@ MERGED from [androidx.test.espresso:espresso-idling-resource:3.3.0] C:\Users\ho\
 MERGED from [androidx.test.espresso:espresso-idling-resource:3.3.0] C:\Users\ho\.gradle\caches\transforms-3\d54f44a860563e2bde53a365eaead228\transformed\espresso-idling-resource-3.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.paypal.android.sdk:data-collector:3.13.0] C:\Users\ho\.gradle\caches\transforms-3\d6d6a767eecd84415139d45298b72c09\transformed\jetified-data-collector-3.13.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.paypal.android.sdk:data-collector:3.13.0] C:\Users\ho\.gradle\caches\transforms-3\d6d6a767eecd84415139d45298b72c09\transformed\jetified-data-collector-3.13.0\AndroidManifest.xml:7:5-9:41
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.paypal.checkout:android-sdk:0.6.0] C:\Users\ho\.gradle\caches\transforms-3\6b6182fca6bc2b093bd05b11b1503c04\transformed\jetified-android-sdk-0.6.0\AndroidManifest.xml:9:9-76
 	android:targetSdkVersion
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:76:13-78:58
+ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:76:13-78:58
 	android:resource
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:78:17-55
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:78:17-55
 	android:name
-		ADDED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:77:17-67
+		ADDED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:77:17-67
 activity#com.karumi.dexter.DexterActivity
 ADDED from [com.karumi:dexter:6.2.3] C:\Users\ho\.gradle\caches\transforms-3\c875d7fbd105d3d701b8fd70e20632e9\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
 	android:theme
@@ -1005,7 +1001,7 @@ ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\tra
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ho\.gradle\caches\transforms-3\23f177c49a088b5da091c283d17ed92e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from E:\Projects\Mobile\mynta_console\app\src\main\AndroidManifest.xml:2:1-174:12 reason: androidmads.library.qrgenearator requested WRITE_EXTERNAL_STORAGE
+IMPLIED from E:\Projects\Mobile\mynta_console_build\app\src\main\AndroidManifest.xml:2:1-173:12 reason: androidmads.library.qrgenearator requested WRITE_EXTERNAL_STORAGE
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\ho\.gradle\caches\transforms-3\16a43cfec9782d405e45254146155c51\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
 	android:exported

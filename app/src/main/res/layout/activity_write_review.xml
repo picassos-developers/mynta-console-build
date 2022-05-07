@@ -90,7 +90,7 @@
                     android:text="Author"
                     android:fontFamily="@font/poppins_bold"
                     android:textColor="?color_dark"
-                    android:textSize="10sp"
+                    android:textSize="11sp"
                     tools:ignore="HardcodedText,SmallSp" />
 
                 <TextView
@@ -102,7 +102,7 @@
                     android:text="@string/reviews_are_public_and_include_your_account_name_username"
                     android:fontFamily="@font/poppins_regular"
                     android:textColor="?color_dark"
-                    android:textSize="10sp"
+                    android:textSize="11sp"
                     tools:ignore="SmallSp" />
 
             </LinearLayout>
@@ -176,10 +176,10 @@
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="15dp"
-            android:background="@drawable/input_background_primary"
+            android:background="@drawable/button_primary"
             android:text="@string/post_review"
             android:textAllCaps="false"
-            android:textColor="?color_light_separate"
+            android:textColor="@color/color_white"
             android:textSize="@dimen/input_text_size" />
 
     </LinearLayout>

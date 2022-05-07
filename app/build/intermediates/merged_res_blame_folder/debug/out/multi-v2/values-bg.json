@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projects\\Mobile\\mynta_console\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ho\\.gradle\\caches\\transforms-3\\525675019ff0b9698861a5898cfe2a01\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-bg\\values.xml",

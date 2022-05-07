@@ -12,6 +12,7 @@
         <item name="color_grey">@color/color_grey</item>
         <item name="color_grey_sheet">@color/color_grey</item>
         <item name="color_light_separate">@color/color_white</item>
+        <item name="color_transparent">@color/color_white_alpha</item>
         <item name="color_dark_separate">@color/reverse_dark</item>
         <item name="divider_inline">@drawable/divider_inline_light</item>
         <item name="color_icon">@color/color_grey_lighter</item>
@@ -36,6 +37,7 @@
         <item name="color_grey">@color/reverse_dark</item>
         <item name="color_grey_sheet">@color/color_dark</item>
         <item name="color_light_separate">@color/reverse_dark</item>
+        <item name="color_transparent">@color/color_dark_alpha</item>
         <item name="color_dark_separate">@color/color_white</item>
         <item name="divider_inline">@drawable/divider_inline_dark</item>
         <item name="color_icon">@color/reverse_dark</item>

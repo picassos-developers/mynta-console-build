@@ -319,14 +319,14 @@
     <string name="request_submitted_successfully_we_will_verify_your_data_and_send_you_the_customized_source_code_to">Your customization request has been submitted, our developers will verify your data and customize your app in less than 2 business days. The customized source code will be checked for quality when finished and will be sent to </string>
     <string name="picassos_products">Picassos’ Products</string>
     <string name="explore_power_store">Explore Power Store</string>
-    <string name="mint_powerups">Mint Power-ups</string>
+    <string name="mynta_powerups">Mynta Power-ups</string>
     <string name="guide_store_title_one">Other products by Picassos Team</string>
     <string name="guide_store_description_one">More products created with &#10084; by Picassos Team available on CodeCanyon</string>
     <string name="guide_store_title_two">Mint Power-Ups</string>
     <string name="guide_store_description_two">Save your time and upgrade your app with the variety of power-ups hand picked by Picassos\' developers</string>
     <string name="enter_valid_drive_link">Please enter a valid Google Drive link.</string>
     <string name="please_read_our_terms_of_use_for_details_about_our_customization_card_system">Please read our <a href="https://console.themintapp.com/policies/terms">Terms of Use</a> for details about our Customization Card system.</string>
-    <string name="verified_by_picassos_developers">Verified by Picassos Developers</string>
+    <string name="verified_by_mynta_team">Verified by Mynta Team</string>
     <string name="continue_purchase">Continue</string>
     <string name="process">Process: </string>
     <string name="instead_of">Instead of</string>

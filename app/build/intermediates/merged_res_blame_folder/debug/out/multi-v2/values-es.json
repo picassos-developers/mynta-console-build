@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projects\\Mobile\\mynta_console\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+            "outputFile": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ho\\.gradle\\caches\\transforms-3\\20714003f791d840a4ecae442f00d63f\\transformed\\jetified-firebase-messaging-23.0.0\\res\\values-es\\values.xml",

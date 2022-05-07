@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projects\\Mobile\\mynta_console\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+            "outputFile": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ho\\.gradle\\caches\\transforms-3\\bc38689f6cf9a7d0e42e3d194eebad09\\transformed\\appcompat-1.4.1\\res\\values-ru\\values-ru.xml",

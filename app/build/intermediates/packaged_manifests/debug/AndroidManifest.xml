@@ -102,7 +102,6 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name="app.mynta.console.android.activities.DownloadsActivity" />
         <activity
             android:name="app.mynta.console.android.activities.about.AboutConsoleActivity"
             android:exported="true" />

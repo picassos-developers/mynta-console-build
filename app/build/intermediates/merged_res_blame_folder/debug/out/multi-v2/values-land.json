@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projects\\Mobile\\mynta_console\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ho\\.gradle\\caches\\transforms-3\\f6091530f93726be4755ddabde09f243\\transformed\\jetified-cardinalmobilesdk-2.2.4-1\\res\\values-land\\values-land.xml",

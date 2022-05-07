@@ -651,6 +651,7 @@
     <color name="color_blue">#0D79EC</color>
     <color name="color_danger">#EC061D</color>
     <color name="color_dark">#101010</color>
+    <color name="color_dark_alpha">#B3212121</color>
     <color name="color_darker">#212121</color>
     <color name="color_green">#44CA5B</color>
     <color name="color_grey">#ebebeb</color>
@@ -658,6 +659,7 @@
     <color name="color_light_white">#F2F5F6</color>
     <color name="color_primary">#FFFFFF</color>
     <color name="color_white">#FFFFFF</color>
+    <color name="color_white_alpha">#B3FFFFFF</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -1747,6 +1749,7 @@
     <item name="bookmarks_page" type="id"/>
     <item name="bottom_navigation" type="id"/>
     <item name="btn_get_started" type="id"/>
+    <item name="build" type="id"/>
     <item name="business" type="id"/>
     <item name="button_dismiss" type="id"/>
     <item name="button_learnmore" type="id"/>
@@ -1813,7 +1816,6 @@
     <item name="download_privacy" type="id"/>
     <item name="download_terms" type="id"/>
     <item name="download_via_wifi" type="id"/>
-    <item name="downloads" type="id"/>
     <item name="downloads_page" type="id"/>
     <item name="drawer_layout" type="id"/>
     <item name="drive_link" type="id"/>
@@ -1874,6 +1876,7 @@
     <item name="latest_update" type="id"/>
     <item name="launch_app" type="id"/>
     <item name="learn_more" type="id"/>
+    <item name="learnmore" type="id"/>
     <item name="learnmore_description" type="id"/>
     <item name="learnmore_title" type="id"/>
     <item name="length" type="id"/>
@@ -2008,7 +2011,6 @@
     <item name="pinterest_provider" type="id"/>
     <item name="policies_container" type="id"/>
     <item name="policies_content" type="id"/>
-    <item name="policies_learnmore" type="id"/>
     <item name="policies_title" type="id"/>
     <item name="policy_effective_date" type="id"/>
     <item name="post_comment" type="id"/>
@@ -2346,6 +2348,7 @@
     <string name="about">About</string>
     <string name="about_app_updated">About App Updated Successfully</string>
     <string name="about_application">About Application</string>
+    <string name="about_application_description">Interested visitors will likely hop over to your About Us page within a click or two. This page is your opportunity to introduce yourself and your business to your app visitors and establish credibility and build trust.</string>
     <string name="about_console">About Console</string>
     <string name="about_console_description">Console is the ultimate tool to configure and manage your Mint Application, with tons of tools to help you up your Android app game, like a fully fledged log-in system, custom CSS to customize the interface, ready-to-use dark mode, and a whole lot more! Boost your business with our user management functionalities, with the ability to send notifications to specific groups of members, and get analytical with members charts and data about your audience!</string>
     <string name="access_token">Access Token</string>
@@ -2467,7 +2470,7 @@
     <string name="custom_dark_mode_card_activated_successfully_expect_your_modified_version_of_the_code_to_be_ready_in_less_than_3_business_days_depending_on_the_number_of_pages_requested">Custom dark mode card activated successfully! Expect your modified version of the code to be ready in less than 3 business days (depending on the number of pages requested). We will send the finalized source code to: </string>
     <string name="custom_theme_style">Custom Theme Style</string>
     <string name="customization">Customization</string>
-    <string name="customization_card_usually_cost_40_but_now_you_can_get_one_for_free_by_following_these_steps"> </string>
+    <string name="customization_card_usually_cost_40_but_now_you_can_get_one_for_free_by_following_these_steps">Customization card usually cost 40$, but now you can get one for free by following this steps:</string>
     <string name="dark">Dark</string>
     <string name="dark_mode">Dark mode</string>
     <string name="dark_mode_data_updated">Dark Mode Data Updated</string>
@@ -2678,7 +2681,6 @@
     <string name="mint_console_credits">Mint Console Credits</string>
     <string name="mint_console_for_android">Mynta Console for\nAndroid</string>
     <string name="mint_console_newsletter">Mint Console newsletter</string>
-    <string name="mint_powerups">Mint Power-ups</string>
     <string name="motion_easing_standard_missing_control_point">cubic-bezier(0.2, 0.0, 0.0)</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string description="Content description for a close icon that lets the user remove content from the screen" name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
@@ -2719,6 +2721,8 @@
     <string name="my_account">My Account</string>
     <string name="my_power_ups">My Power-Ups</string>
     <string name="my_tickets">My tickets</string>
+    <string name="mynta_powerups">Mynta Power-ups</string>
+    <string name="mynta_team_author">Mynta Team Author</string>
     <string name="navigation">Navigations</string>
     <string name="navigation_icon">Navigation icon</string>
     <string name="navigation_link">Navigation link</string>
@@ -3160,7 +3164,6 @@
     <string name="paypal_logo">Pay Pal</string>
     <string name="paypal_payment">PayPal Payment</string>
     <string name="per_page">Per Page</string>
-    <string name="picassos_author">Picassos Author</string>
     <string name="picassos_newsletter">Picassos newsletter</string>
     <string name="picassos_products">Picassos’ Products</string>
     <string name="pinterest">Pinterest</string>
@@ -3251,6 +3254,7 @@
     <string name="setup_google_firebase">Setup Google Firebase</string>
     <string name="setup_policies">Setup Policies</string>
     <string name="share_content">Share Content</string>
+    <string name="share_content_description"/>
     <string name="share_content_updated">Share Content Updated Successfully</string>
     <string name="share_your_location_geolocation_in_your_app_with_google_maps_content_provider">Build your own navigation app with Google Maps content provider.</string>
     <string name="short_password">Password must be longer than 8 letters or numbers.</string>
@@ -3328,7 +3332,7 @@
     <string name="verification_code">Verification Code</string>
     <string name="verification_code_empty">Verification code can\'t be empty</string>
     <string name="verification_code_expired">Verification code is invalid or expired.</string>
-    <string name="verified_by_picassos_developers">Verified by Picassos Developers</string>
+    <string name="verified_by_mynta_team">Verified by Mynta Team</string>
     <string name="verify" ns1:ignore="PrivateResource">Verify</string>
     <string name="verify_by_phone">Verify by Phone</string>
     <string name="verify_your_mynta_app">Verify your Mynta App!</string>
@@ -3425,6 +3429,7 @@
         <item name="color_grey">@color/color_grey</item>
         <item name="color_grey_sheet">@color/color_grey</item>
         <item name="color_light_separate">@color/color_white</item>
+        <item name="color_transparent">@color/color_white_alpha</item>
         <item name="color_dark_separate">@color/reverse_dark</item>
         <item name="divider_inline">@drawable/divider_inline_light</item>
         <item name="color_icon">@color/color_grey_lighter</item>
@@ -6563,6 +6568,7 @@
         <item name="color_grey">@color/reverse_dark</item>
         <item name="color_grey_sheet">@color/color_dark</item>
         <item name="color_light_separate">@color/reverse_dark</item>
+        <item name="color_transparent">@color/color_dark_alpha</item>
         <item name="color_dark_separate">@color/color_white</item>
         <item name="divider_inline">@drawable/divider_inline_dark</item>
         <item name="color_icon">@color/reverse_dark</item>
@@ -14882,6 +14888,7 @@
         <attr format="reference" name="header_logo"/>
         <attr format="color" name="color_card_alert"/>
         <attr format="color" name="color_active"/>
+        <attr format="color" name="color_transparent"/>
     </declare-styleable>
     <declare-styleable name="ThemeEnforcement">
     <!-- Internal flag used to denote that a style uses new attributes defined by

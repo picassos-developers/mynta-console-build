@@ -84,7 +84,7 @@
             android:text="Hey Guys, Been throwing up some designs in my shop as stickers. Feel free to drop on by."
             android:fontFamily="@font/poppins_regular"
             android:textColor="?color_dark"
-            android:textSize="10sp"
+            android:textSize="11sp"
             tools:ignore="HardcodedText,SmallSp" />
 
         <LinearLayout

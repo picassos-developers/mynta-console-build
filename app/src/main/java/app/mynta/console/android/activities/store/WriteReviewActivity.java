@@ -38,6 +38,7 @@ public class WriteReviewActivity extends AppCompatActivity {
     private TextView length;
 
     // placeholders
+    private EditText reviewField;
     private int id = 0;
     private String review = "";
     private int rating = 0;
@@ -78,7 +79,7 @@ public class WriteReviewActivity extends AppCompatActivity {
         reviewAuthorIcon.setText(consolePreferences.loadUsername().substring(0, 1).toUpperCase());
 
         // review field
-        EditText reviewField = findViewById(R.id.review_field);
+        reviewField = findViewById(R.id.review_field);
         length = findViewById(R.id.length);
         reviewField.addTextChangedListener(onReviewValueChange);
         reviewField.setText(review);
@@ -171,6 +172,7 @@ public class WriteReviewActivity extends AppCompatActivity {
         @SuppressLint("SetTextI18n")
         public void onTextChanged(CharSequence s, int start, int before, int count) {
             length.setText(s.length() + " / 250");
+            findViewById(R.id.post_review).setEnabled(!TextUtils.isEmpty(reviewField.getText().toString()));
         }
 
         @Override

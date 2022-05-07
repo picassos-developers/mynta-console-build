@@ -66,7 +66,6 @@ public class OneSignalSettingsBottomSheetModal extends BottomSheetDialogFragment
             if (!TextUtils.isEmpty(appId.getText().toString())
                     && !TextUtils.isEmpty(restApiKey.getText().toString())) {
                 requestSaveSettings(appId.getText().toString(), restApiKey.getText().toString());
-                dismiss();
             } else {
                 Toasto.show_toast(requireContext(), getString(R.string.all_fields_are_required), 1, 2);
             }

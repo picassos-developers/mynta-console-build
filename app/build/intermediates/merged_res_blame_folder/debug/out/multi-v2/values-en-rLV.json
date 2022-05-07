@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projects\\Mobile\\mynta_console\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rLV\\values-en-rLV.xml",
+            "outputFile": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rLV\\values-en-rLV.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ho\\.gradle\\caches\\transforms-3\\6b6182fca6bc2b093bd05b11b1503c04\\transformed\\jetified-android-sdk-0.6.0\\res\\values-en-rLV\\values-en-rLV.xml",
