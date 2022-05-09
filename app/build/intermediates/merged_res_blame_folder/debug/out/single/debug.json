@@ -80,12 +80,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_admob_color.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_account.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\fragment_account.xml"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_video_style_two.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\video_style_two.png"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_account.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\fragment_account.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -112,12 +112,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\wordpress_category_style_two.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_card_background.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\card_background.xml"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_notifications.xml.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_notifications.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_card_background.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\card_background.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -136,28 +136,28 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\input_rectangle_background.xml"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_trash_outline.png.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_trash_outline.png"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_youtube_color.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_youtube_color.png"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_trash_outline.png.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_trash_outline.png"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_navigation_options_bottom_sheet_modal.xml.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\navigation_options_bottom_sheet_modal.xml"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_members.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_members.xml"
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_indicator_selector.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\indicator_selector.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_check_blue.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_check_blue.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_indicator_selector.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\indicator_selector.xml"
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_members.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_members.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_item_background_active.xml.flat",
@@ -232,12 +232,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_project.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_add_project.xml"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradient_background.xml.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_project.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_add_project.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_promotion.xml.flat",
@@ -312,12 +312,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_add_folder.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_map_styles.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\dialog_map_styles.xml"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_secondary.xml.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\rectangle_secondary.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_map_styles.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\dialog_map_styles.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_colorpicker_target.png.flat",
@@ -340,16 +340,16 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\logo_apple.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_item_home_member_listitem.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\item_home_member_listitem.xml"
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_colorpicker_hue.png.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\colorpicker_hue.png"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_colorpicker_hue.png.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\colorpicker_hue.png"
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_item_home_member_listitem.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\item_home_member_listitem.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_choose_notification_provider_bottom_sheet_modal.xml.flat",
@@ -368,12 +368,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\toast_dark.xml"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_wordpress_post_style_five.png.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\wordpress_post_style_five.png"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_load_image_retry.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\load_image_retry.png"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_wordpress_post_style_five.png.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\wordpress_post_style_five.png"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_update_ticket.xml.flat",
@@ -448,12 +448,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_transaction.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_item_server_status_listitem.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\item_server_status_listitem.xml"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_map_aubergine.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\map_aubergine.png"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_item_server_status_listitem.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\item_server_status_listitem.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_notification_target.xml.flat",
@@ -508,12 +508,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_apps.png"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_social_facebook.png.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_social_facebook.png"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_designs.xml.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\dialog_designs.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_social_facebook.png.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_social_facebook.png"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_member_details_bottom_sheet_modal.xml.flat",
@@ -536,24 +536,24 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\dialog_preview_notification.xml"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_wrench_outline.png.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_wrench_outline.png"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_wrench_outline.png.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_wrench_outline.png"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\font_opensans_bold.ttf.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\font\\opensans_bold.ttf"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_check_ticket.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_check_ticket.xml"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_facebook_ads.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\facebook_ads.png"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_check_ticket.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_check_ticket.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_checkbox.png.flat",
@@ -580,12 +580,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\promotion_backgrond.xml"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_project.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_edit_project.xml"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_down_red.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_down_red.png"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_project.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_edit_project.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_header_logo_dark.png.flat",
@@ -608,12 +608,12 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\toasto_layout.xml"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_social_profile.png.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_social_profile.png"
-    },
-    {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_input_rectangle_background_sheet.xml.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\input_rectangle_background_sheet.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_social_profile.png.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_social_profile.png"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_firebase_settings_bottom_sheet_modal.xml.flat",
@@ -652,16 +652,16 @@
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\switch_thumb_big.xml"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_get_started.xml.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_get_started.xml"
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_cent.png.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_cent.png"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_navigation_background.xml.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\navigation_background.xml"
     },
     {
-        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_cent.png.flat",
-        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_cent.png"
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_get_started.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\layout\\activity_get_started.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -1762,6 +1762,10 @@
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_bell_filled.png.flat",
         "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\icon_bell_filled.png"
+    },
+    {
+        "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\drawable_item_background_selected.xml.flat",
+        "source": "E:\\Projects\\Mobile\\mynta_console_build\\app\\src\\main\\res\\drawable\\item_background_selected.xml"
     },
     {
         "merged": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",

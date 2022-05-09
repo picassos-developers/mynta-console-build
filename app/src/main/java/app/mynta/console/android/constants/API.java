@@ -85,7 +85,7 @@ public class API {
     public static final String REQUEST_NOTIFICATIONS_PREFERENCES = "request_notifications_preferences.inc.php";
     public static final String REQUEST_WEBVIEW_DETAILS = "navigations/request_webview_provider.inc.php";
     public static final String REQUEST_LOGIN_PROVIDERS = "members/login_providers/request_login_providers.inc.php";
-    public static final String REQUEST_UPDATE_LOGIN_PROVIDERS = "app/request_update_login_providers.inc.php";
+    public static final String REQUEST_UPDATE_LOGIN_PROVIDERS = "members/login_providers/request_update_login_providers.inc.php";
     public static final String REQUEST_UPDATE_WEBVIEW = "navigations/request_update_webview_provider.inc.php";
     public static final String REQUEST_FACEBOOK_DETAILS = "navigations/request_facebook_provider.inc.php";
     public static final String REQUEST_UPDATE_FACEBOOK_PROVIDER = "navigations/request_update_facebook_provider.inc.php";
@@ -129,6 +129,7 @@ public class API {
     public static final String REQUEST_POST_REVIEW = "store/request_post_review.inc.php";
     public static final String REQUEST_DELETE_REVIEW = "store/request_delete_review.inc.php";
     public static final String REQUEST_SETUP_POLICIES = "store/powerups/policies/request_setup_policies.inc.php";
+    public static final String REQUEST_POLICIES_DETAILS = "store/powerups/policies/request_policies_details.inc.php";
     public static final String REQUEST_REDEEM_PROMO_CODE = "store/request_redeem_promo_code.inc.php";
     public static final String REQUEST_ABOUT_APP = "app_information/request_about_app.inc.php";
     public static final String REQUEST_UPDATE_ABOUT_APP = "app_information/request_update_about_app.inc.php";

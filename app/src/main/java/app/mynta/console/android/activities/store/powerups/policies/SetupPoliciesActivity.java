@@ -27,6 +27,7 @@ import app.mynta.console.android.utils.Helper;
 import app.mynta.console.android.utils.RequestDialog;
 import app.mynta.console.android.utils.Toasto;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -41,6 +42,10 @@ public class SetupPoliciesActivity extends AppCompatActivity {
 
     RequestDialog requestDialog;
     ConsolePreferences consolePreferences;
+
+    private EditText applicationName;
+    private EditText companyName;
+    private EditText emailAddress;
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -64,10 +69,10 @@ public class SetupPoliciesActivity extends AppCompatActivity {
         findViewById(R.id.learnmore).setOnClickListener(v -> showLearnMore(getString(R.string.policies_learnmore_title), getString(R.string.policies_learnmore_description), ""));
 
         // fields
-        EditText applicationName = findViewById(R.id.application_name);
-        EditText companyName = findViewById(R.id.company_name);
+        applicationName = findViewById(R.id.application_name);
+        companyName = findViewById(R.id.company_name);
         EditText companyAddress = findViewById(R.id.company_address);
-        EditText emailAddress = findViewById(R.id.email_address);
+        emailAddress = findViewById(R.id.email_address);
         EditText country = findViewById(R.id.your_country);
 
         // policy effective date
@@ -89,6 +94,9 @@ public class SetupPoliciesActivity extends AppCompatActivity {
                 Toasto.show_toast(this, getString(R.string.all_fields_are_required), 1, 2);
             }
         });
+
+        // request policies details
+        requestPoliciesDetails();
     }
 
     /**
@@ -138,6 +146,43 @@ public class SetupPoliciesActivity extends AppCompatActivity {
                 return params;
             }
         };
+        Volley.newRequestQueue(this).add(request);
+    }
+
+    /**
+     * request policies details
+     */
+    private void requestPoliciesDetails() {
+        requestDialog.show();
+
+        StringRequest request = new StringRequest(Request.Method.POST, API.API_URL + API.REQUEST_POLICIES_DETAILS,
+                response -> {
+                    try {
+                        JSONObject obj = new JSONObject(response);
+
+                        JSONArray array = obj.getJSONArray("project");
+
+                        for (int i = 0; i < array.length(); i++) {
+                            JSONObject object = array.getJSONObject(i);
+                            
+                            applicationName.setText(object.getString("name"));
+                            companyName.setText(object.getString("business_name"));
+                            emailAddress.setText(object.getString("email_address"));
+                        }
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    requestDialog.dismiss();
+                }, error -> requestDialog.dismiss()) {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<>();
+                params.put("secret_api_key", consolePreferences.loadSecretAPIKey());
+                return params;
+            }
+        };
+
         Volley.newRequestQueue(this).add(request);
     }
 

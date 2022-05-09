@@ -3359,6 +3359,7 @@ drawable item_background
 drawable item_background_active
 drawable item_background_darker
 drawable item_background_darker_selected
+drawable item_background_selected
 drawable large_progress
 drawable load_image_retry
 drawable loading_gifts
@@ -3650,6 +3651,7 @@ id antiClockwise
 id anticipate
 id app_category_thumbnail
 id app_category_title
+id app_login
 id appearance
 id application_name
 id arc
@@ -3894,7 +3896,6 @@ id disjoint
 id dividerLine
 id divider_card_info
 id divider_zip_code
-id donut_login
 id download
 id download_privacy
 id download_terms
@@ -4413,6 +4414,7 @@ id progress_bar
 id progress_circular
 id progress_horizontal
 id progress_spinner
+id project_container
 id project_firebase_access_key
 id project_name
 id project_options
@@ -5376,6 +5378,7 @@ string androidx_startup
 string app_email_address_description
 string app_id
 string app_information
+string app_login
 string app_name
 string app_settings
 string appbar_scrolling_view_behavior
@@ -5480,7 +5483,6 @@ string did_not_get_email
 string disable_ads
 string don_t_have_an_account_register
 string dont_force_update
-string donut
 string download_data
 string download_via_wifi
 string download_your_data

@@ -30,7 +30,7 @@ public class LoginProvidersActivity extends AppCompatActivity {
     ConsolePreferences consolePreferences;
 
     // providers
-    private SwitchCompat donut;
+    private SwitchCompat appLogin;
     private SwitchCompat google;
     private SwitchCompat facebook;
     private SwitchCompat firebase;
@@ -53,7 +53,7 @@ public class LoginProvidersActivity extends AppCompatActivity {
         findViewById(R.id.go_back).setOnClickListener(v -> finish());
 
         // initialize providers
-        donut = findViewById(R.id.donut_login);
+        appLogin = findViewById(R.id.app_login);
         google = findViewById(R.id.google_login);
         facebook = findViewById(R.id.facebook_login);
         firebase = findViewById(R.id.firebase_login);
@@ -89,7 +89,7 @@ public class LoginProvidersActivity extends AppCompatActivity {
                         JSONObject root = object.getJSONObject("login_providers");
 
                         // set providers
-                        donut.setChecked(getState(root.getInt("donut")));
+                        appLogin.setChecked(getState(root.getInt("app")));
                         google.setChecked(getState(root.getInt("google")));
                         facebook.setChecked(getState(root.getInt("facebook")));
                         firebase.setChecked(getState(root.getInt("firebase")));
@@ -126,7 +126,7 @@ public class LoginProvidersActivity extends AppCompatActivity {
             requestDialog.show();
             StringRequest request = new StringRequest(Request.Method.POST, API.API_URL + API.REQUEST_UPDATE_LOGIN_PROVIDERS,
                     response -> {
-                        if (response.equals("exception:configuration?success")) {
+                        if (response.equals("200")) {
                             Toasto.show_toast(this, getString(R.string.login_providers_updated), 1, 0);
                         } else {
                             Toasto.show_toast(this, getString(R.string.unknown_issue), 1, 1);
@@ -140,8 +140,8 @@ public class LoginProvidersActivity extends AppCompatActivity {
                 @Override
                 protected Map<String, String> getParams() {
                     Map<String, String> params = new HashMap<>();
-                    params.put("secret_api_key", consolePreferences.loadSecretAPIKey());
-                    params.put("donut", String.valueOf(setState(donut.isChecked())));
+                    params.put("sak", consolePreferences.loadSecretAPIKey());
+                    params.put("app", String.valueOf(setState(appLogin.isChecked())));
                     params.put("google", String.valueOf(setState(google.isChecked())));
                     params.put("facebook", String.valueOf(setState(facebook.isChecked())));
                     params.put("firebase", String.valueOf(setState(firebase.isChecked())));

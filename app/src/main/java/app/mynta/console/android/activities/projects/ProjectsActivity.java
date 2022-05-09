@@ -81,7 +81,7 @@ public class ProjectsActivity extends AppCompatActivity {
         RecyclerView projectsRecyclerview = findViewById(R.id.recycler_projects);
 
         // projects adapter
-        projectsAdapter = new ProjectsAdapter(projectsList, project -> {
+        projectsAdapter = new ProjectsAdapter(this, consolePreferences, projectsList, project -> {
             consolePreferences.setProjectName(project.getName());
             consolePreferences.setSecretAPIKey(project.getSak());
             consolePreferences.setPackageName(project.getPackagename());
@@ -120,7 +120,6 @@ public class ProjectsActivity extends AppCompatActivity {
 
         StringRequest request = new StringRequest(Request.Method.POST, API.API_URL + API.REQUEST_PROJECTS,
                 response -> {
-
                     try {
                         JSONObject obj = new JSONObject(response);
 
@@ -139,7 +138,6 @@ public class ProjectsActivity extends AppCompatActivity {
                             projectsList.add(projects);
                             projectsAdapter.notifyDataSetChanged();
                         }
-
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }

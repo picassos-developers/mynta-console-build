@@ -100,14 +100,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
-                            android:text="@string/donut"
+                            android:text="@string/app_login"
                             android:textColor="?color_dark"
                             android:textSize="@dimen/input_text_size" />
 
                     </LinearLayout>
 
                     <androidx.appcompat.widget.SwitchCompat
-                        android:id="@id/donut_login"
+                        android:id="@id/app_login"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:layout_alignParentEnd="true"

@@ -255,7 +255,7 @@
                     android:paddingTop="10dp"
                     android:paddingEnd="15dp"
                     android:paddingBottom="10dp"
-                    android:visibility="visible">
+                    android:visibility="gone">
 
                     <ImageView
                         android:layout_width="35dp"

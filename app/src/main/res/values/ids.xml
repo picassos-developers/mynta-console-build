@@ -291,6 +291,7 @@
     <item name="ticket_details" type="id" />
     <item name="ticket_container" type="id" />
     <item name="section_title" type="id" />
+    <item name="project_container" type="id" />
     <item name="project_name" type="id" />
     <item name="project_settings" type="id" />
     <item name="project_packagename" type="id" />
@@ -318,7 +319,7 @@
     <item name="close_ticket" type="id" />
     <item name="webview_provider" type="id" />
     <item name="open_powerstore" type="id" />
-    <item name="donut_login" type="id" />
+    <item name="app_login" type="id" />
     <item name="google_login" type="id" />
     <item name="facebook_login" type="id" />
     <item name="firebase_login" type="id" />

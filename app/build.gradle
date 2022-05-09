@@ -24,8 +24,8 @@ android {
         applicationId "app.mynta.console.android"
         minSdkVersion 22
         targetSdkVersion 32
-        versionCode 23
-        versionName "23.0"
+        versionCode 1
+        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

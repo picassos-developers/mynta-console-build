@@ -121,9 +121,9 @@
                         android:background="@drawable/input_rectangle_background"
                         android:hint="@string/username"
                         android:inputType="text"
-                        android:paddingStart="20dp"
+                        android:paddingStart="15dp"
                         android:paddingTop="10dp"
-                        android:paddingEnd="20dp"
+                        android:paddingEnd="15dp"
                         android:paddingBottom="10dp"
                         android:textColor="?color_dark"
                         android:textColorHint="?color_dark"
@@ -161,8 +161,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
-                            android:paddingStart="20dp"
-                            android:paddingEnd="20dp"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
                             android:text="@string/change_password"
                             android:textColor="?color_dark"
                             android:textSize="@dimen/input_text_size" />
@@ -304,7 +304,7 @@
                     android:background="@drawable/button_primary"
                     android:text="@string/save"
                     android:textAllCaps="false"
-                    android:textColor="?color_light_separate"
+                    android:textColor="@color/color_white"
                     android:textSize="@dimen/input_text_size" />
 
             </LinearLayout>

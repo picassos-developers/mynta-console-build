@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Projects\\Mobile\\mynta_console_build\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v27\\values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ho\\.gradle\\caches\\transforms-3\\6b6182fca6bc2b093bd05b11b1503c04\\transformed\\jetified-android-sdk-0.6.0\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,588",
+                        "endLines": "10,20",
+                        "endColumns": "12,12",
+                        "endOffsets": "583,1195"
+                    }
+                }
+            ]
+        }
+    ]
+}
